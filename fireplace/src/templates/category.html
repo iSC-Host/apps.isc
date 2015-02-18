@@ -1,0 +1,54 @@
+{% include '_macros/app_tile.html' %}
+{% include '_macros/more_button.html' %}
+
+{% set source = category or 'all' %}
+
+{% set category_url = url('category', [category]) if category else url('homepage') %}
+
+{% set popular_url = category_url|urlparams(src='category-popular') %}
+{% set new_url = category_url|urlparams(sort='reviewed', src='category-new') %}
+
+{% set search_url = url('search')|urlparams(cat=category) if category else url('search') %}
+{% set search_url = search_url|urlparams(sort=sort) if sort == 'reviewed' else search_url %}
+
+<section class="main">
+  <div class="subheader cat-header">
+    <h1 class="category-header-icon cat-{{ category }} cat-icon">
+      {{ category_name }}
+      <a class="app-list-filters-expand-toggle" title="{{ _('Expand') }}"></a>
+    </h1>
+  </div>
+</section>
+
+<section class="category main full">
+{% defer (url=endpoint, pluck='objects', as='app', paginate='.app-list') %}
+  {% include "_includes/app_list_filters.html" %}
+
+  <ul class="app-list {{ 'paginated' if response.meta.next }}">
+    {% for app in this %}
+      <li class="item result app-list-app">
+        {{ app_tile(app, src=source + '-' + (sort or 'popular'), tray=True) }}
+      </li>
+    {% endfor %}
+
+    {# Render the more button if there's another page of results #}
+    {% if response.meta.next %}
+      {{ more_button(response.meta.next) }}
+    {% endif %}
+  </ul>
+{% placeholder %}
+  <p class="spinner padded alt"></p>
+{% empty %}
+  <p class="no-results">
+    {{ _('No apps in this category') }}
+  </p>
+{% except %}
+  <p class="no-results">
+    {% if error == 400 or error == 404 %}
+      {{ _('The category you requested does not exist.') }}
+    {% elif error == 500 %}
+      {{ _('An internal server error occurred. Please try again later.') }}
+    {% endif %}
+  </p>
+{% end %}
+</section>

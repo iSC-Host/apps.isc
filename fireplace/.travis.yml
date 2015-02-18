@@ -1,0 +1,54 @@
+sudo: false
+branches:
+  only:
+    - master
+notifications:
+  irc:
+    channels:
+      - "irc.mozilla.org#amo-bots"
+      - "irc.mozilla.org#fireplace"
+    on_success: change
+    on_failure: change
+  email: false
+language: node_js
+python:
+  - "2.7"
+node_js:
+  - "0.10"
+before_script:
+  - "export PHANTOMJS_EXECUTABLE='phantomjs --local-to-remote-url-access=yes --ignore-ssl-errors=yes'"
+# Install API mock.
+  - "export PYTHONUSERBASE=/tmp/python-env"
+  - "git clone https://github.com/mozilla/marketplace-api-mock /tmp/marketplace-api-mock"
+  - "pushd /tmp/marketplace-api-mock"
+  - "pip install --user --exists-action=w --download-cache=/tmp/pip-cache -r requirements.txt"
+  - "popd"
+# Install gist gem.
+  - "gem install gist"
+# Create an installation.
+  - "make install"
+script:
+# Lint the installation.
+# - "commonplace lint"
+# Generate langpacks, catches PO file errors.
+  - "commonplace langpacks"
+# Start API mock server.
+  - "pushd /tmp/marketplace-api-mock"
+  - "python main.py &"
+  - "popd"
+# Start the webserver.
+  - "API=mocklocal make serve &"
+  - "sleep 5"
+# Run UI tests.
+  - "make test"
+# Upload captures.
+  - "sh tests/upload-captures.sh"
+# Test package.
+  - "make package"
+  - "test -f package/builds/_prod/media/js/include.js"
+cache:
+    directories:
+        - /tmp/pip-cache
+        - /tmp/python-env
+        - node_modules
+        - bower_components

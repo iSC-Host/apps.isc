@@ -1,0 +1,54 @@
+@import "lib";
+
+$select-height = 30px;
+
+.pretty-select {
+    border: 1px solid $filters-border;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 20px;
+    height: $select-height;
+
+    // Above styles are defined separately in Transonic.
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+
+    &:before {
+        // Custom dropdown arrow
+        dropdown();
+        background: none;
+        color: $drop-arrow;
+        content: '\25BC';
+        font-size: 10px;
+        top: 8px;
+        right: -2px;
+        z-index: 2;
+    }
+    select {
+        -moz-padding-start: 10px;
+        -webkit-padding-start: 10px;
+        appearance-none();
+        background: $white;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: none;
+        cursor: pointer;
+        height: $select-height;
+        max-width: none;
+        min-width: 229px;
+        outline: 0;
+
+        &:-moz-focusring {
+            color: $filters-label;
+            text-shadow: 0 0 0 $white;
+        }
+    }
+    option {
+        background: $white;
+        color: $greyscale-black;
+        padding: 5px;
+    }
+}

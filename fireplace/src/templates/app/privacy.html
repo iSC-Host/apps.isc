@@ -1,0 +1,14 @@
+<section class="main">
+  <div class="subheader">
+    <h1>{{ _('Privacy Policy') }}</h1>
+  </div>
+</section>
+
+<section class="app-privacy-policy main full prose">
+  {% defer (url=api('app/privacy', [slug])) %}
+    <p><a href="{{ url('app', [slug]) }}" class="back-to-app">{{ _('Back to app') }}</a></p>
+    {{ this.privacy_policy|nl2br }}
+  {% placeholder %}
+    {{ _('Loading Privacy Policy...') }}
+  {% end %}
+</section>

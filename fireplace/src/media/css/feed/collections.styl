@@ -1,0 +1,66 @@
+/*
+    Stylesheet for collections. Landing styles are also used by shelves.
+*/
+@import '../lib';
+
+.collection-listing-header {
+    // Header for listing collections on the homepage.
+    display: block;
+    height: 48px;
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+
+.collection-listing-desc {
+    type_body();
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+[data-feed-landing-is-coll-listing] .feed-landing-apps {
+    margin-top: 30px;
+}
+
+.feed-landing-header .collection-listing-desc {
+    padding: 10px 10px 0;
+}
+
+[data-page-type~="homepage"] .collection-listing-header {
+    bottom: 15px;
+    right: 10px;
+    width: unquote('calc(100% + 20px)');
+}
+
+.feed-collection-listing .desc {
+    margin-top: 0;
+    padding: 5px 0 10px;
+    type_body();
+}
+
+.collection-group-header {
+    _h3();
+    padding-top: 30px;
+}
+
+.feed-landing-header-mobile .feed-collection {
+    display: block;
+    margin: 0 auto;
+    width: $mobile-content-width;
+}
+
+[data-feed-landing-is-coll-promo].
+[data-shelf-landing] {
+    .feed-landing-header-mobile {
+        padding: 10px 0;
+    }
+}

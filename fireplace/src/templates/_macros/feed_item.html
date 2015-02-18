@@ -1,0 +1,293 @@
+{% from "_macros/market_button.html" import market_button %}
+{% from '_macros/app_tile.html' import app_tile, deferred_icon %}
+{% from '_macros/stars.html' import stars %}
+
+{% macro feed_app(feed_app) %}
+  {% set feed_app = feed.transformer(feed_app) %}
+  {% set desc = feed_app.description|translate(feed_app) %}
+
+  <a href="{{ url('app', [feed_app.app.slug])|urlparams(src=feed_app.src) }}"
+     class="featured-app app-link" data-tracking="{{ feed_app.app.slug }}">
+    {% if feed_app.isIcon or feed_app.isImage %}
+      <section class="feed-item {{ 'deferred-background' if feed_app.background_image }}"
+               {% if feed_app.isIcon %}
+                 data-feed-app-type-icon
+               {% endif %}
+               {% if not desc and not feed_app.background_image %}
+                 style="background-color: {{ feed_app.inline_color|hex2rgba('.55') }}"
+               {% elif feed_app.background_image %}
+                 data-feed-app-has-background
+                 style="background-image: url({{ PLACEHOLDER_ICON }})"
+                 data-src="{{ feed_app.background_image }}"
+               {% endif %}>
+        {% if feed_app.isIcon %}
+          <ul class="app-icons">
+            <li>{{ deferred_icon(feed_app.app.icons[64],
+                                 feed_app.app.name|translate(feed_app.app)) }}</li>
+          </ul>
+        {% endif %}
+        <div class="feed-curve curve"
+             style="background-color: {{ feed_app.inline_color|hex2rgba('.85') }}">
+        </div>
+        <div class="info" style="background-color: {{ feed_app.inline_color|hex2rgba('.85') }}">
+          <h1 class="name">{{ feed_app.app.name|translate(feed_app) }}</h1>
+          <p class="author">{{ feed_app.app.author }}</p>
+        </div>
+      </section>
+    {% else %}
+      {{ app_tile(feed_app.app,
+                     feed_app=feed_app,
+                     src=feed_app.src) }}
+    {% endif %}
+  </a>
+{% endmacro %}
+
+{% macro brand_header(brand) %}
+  <a class="brand-header"
+     data-feed-color="{{ brand.color }}" data-brand-type="{{ brand.type }}"
+     href="{{ url('feed/editorial', [brand.slug])|urlparams(src=brand.src) }}">
+    <h3>{{ brand.name }}</h3>
+  </a>
+{% endmacro %}
+
+{% macro brand(brand) %}
+  {% set brand = feed.transformer(brand) %}
+  {% set max_apps = 4 %}
+
+  <section class="feed-brand feed-layout-{{ brand.layout }} multi-app-tile c"
+           data-tracking="{{ brand.slug }}">
+    {{ brand_header(brand) }}
+    <ul>
+      {% for app in brand.apps %}
+        {% if loop.index0 < max_apps %}
+          {{ app_tile(app, src=brand.src) }}
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    {% if brand.app_count > 4 %}
+      <a href="{{ url('feed/editorial', [brand.slug])|urlparams(src=brand.src) }}"
+         class="view-all-tab feed-view-all-tab">
+        {{ _('View all apps') }}
+      </a>
+    {% endif %}
+  </section>
+{% endmacro %}
+
+{% macro collection(coll) %}
+  {% set coll = feed.transformer(coll) %}
+  {% if coll.isCollPromo %}
+    <a href="{{ url('feed/collection', [coll.slug])|urlparams(src=coll.src) }}">
+      {{ collection_promo(coll) }}
+    </a>
+  {% else %}
+    {{ collection_listing(coll) }}
+  {% endif %}
+{% endmacro %}
+
+{% macro collection_promo(coll) %}
+  {% set coll = feed.transformer(coll) %}
+  {% set desc = coll.description|translate(coll) %}
+
+  <section class="feed-item feed-collection full
+                  {{ 'has-desc' if desc }}
+                  {{ 'has-background deferred-background' if coll.background_image}}"
+           data-tracking="{{ coll.slug }}"
+       {% if coll.background_image %}
+           style="background-image: url({{ PLACEHOLDER_ICON }})"
+           data-src="{{ coll.background_image }}"
+       {% else %}
+           style="background-color: {{ coll.inline_color|hex2rgba('.35') }}"
+       {% endif %}>
+    {% if not coll.background_image %}
+      <ul class="app-icons">
+        {% for app in coll.apps.slice(0, 3) %}
+          <li>{{ deferred_icon(app.icons[64], app.name|translate(app)) }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    <div class="feed-curve curve"
+         style="background-color: {{ coll.inline_color|hex2rgba('.85') }}">
+      {% if coll.background_image %}
+        <div class="curve-bottom"
+             style="background-color: {{ coll.inline_color|hex2rgba('.85') }}">
+        </div>
+      {% endif %}
+    </div>
+    <div class="info"
+      {% if not coll.background_image %}
+        style="background-color: {{ coll.inline_color|hex2rgba('.85') }}"
+      {% endif %}>
+      <h1 class="name">{{ coll.name|translate(coll)|safe }}</h1>
+      {% if desc %}
+        <p class="desc">{{ desc }}</p>
+      {% endif %}
+    </div>
+  </section>
+{% endmacro %}
+
+{% macro collection_listing_header(coll) %}
+   <a class="collection-listing-header"
+      href="{{ url('feed/collection', [coll.slug])|urlparams(src=coll.src) }}">
+     <h3>{{ coll.name|translate(coll)|safe }}</h3>
+  </a>
+  {% if coll.description %}
+    <p class="collection-listing-desc">
+      {{ coll.description|translate(coll)|safe }}
+    </p>
+  {% endif %}
+{% endmacro %}
+
+{% macro collection_listing(coll) %}
+  {% set coll = feed.transformer(coll) %}
+  {% set max_apps = 4 %}
+
+  <section class="feed-collection feed-collection-listing feed-layout-list
+                  multi-app-tile mkt-tile c"
+           data-tracking="{{ coll.slug }}">
+    {{ collection_listing_header(coll) }}
+    <ul>
+      {% for app in coll.apps %}
+        {% if loop.index0 < max_apps %}
+          {{ app_tile(app, src=coll.src) }}
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    {% if coll.app_count > 4 %}
+      <a href="{{ url('feed/collection', [coll.slug])|urlparams(src=coll.src) }}"
+         class="view-all-tab feed-view-all-tab">
+        {{ _('View all apps') }}
+      </a>
+    {% endif %}
+  </section>
+{% endmacro %}
+
+{% macro collection_landing(feed_item) %}
+  {# Used for collections, shelves, and brands. Reduce, reuse, recycle. #}
+  {% set feed_item = feed.transformer(feed_item) %}
+  <div class="feed-landing-wrapper" data-tracking="{{ feed_item.slug }}"
+       {% if feed_item.isBrand or feed_item.isCollPromo %}
+         data-feed-landing-color="{{ feed_item.color }}"
+       {% endif %}
+       {% if feed_item.background_image %}data-feed-landing-has-background-image{% endif %}
+       {% if feed_item.isCollPromo %}data-feed-landing-is-coll-promo{% endif %}
+       {% if feed_item.isCollListing %}data-feed-landing-is-coll-listing{% endif %}
+       {% if feed_item.isShelf %}data-shelf-landing{% endif %}
+       {% if feed_item.region %}data-shelf-landing-region="{{ feed_item.region }}"{% endif %}
+       {% if feed_item.carrier %}data-shelf-landing-carrier="{{ feed_item.carrier }}"{% endif %}
+       {% if feed_item.isBrand %}data-brand-landing{% endif %}>
+  <div class="feed-landing-header">
+
+    <!--Mobile landing header.-->
+    <div class="feed-landing-header-mobile">
+      {# Reuse the feed representation as the mobile header. #}
+      {% if feed_item.isShelf %}
+        {{ shelf(feed_item, true) }}
+      {% elif feed_item.isBrand %}
+        {{ brand_header(feed_item) }}
+      {% else %}
+        {{ collection_promo(feed_item) if feed_item.isCollPromo else
+           collection_listing_header(feed_item) }}
+      {% endif %}
+    </div>
+
+    <!--Desktop landing header.-->
+    <div class="feed-landing-header-desktop">
+      {% if feed_item.isCollection and not feed_item.background_image %}
+        <ul class="feed-landing-app-icons">
+          {% for app in feed_item.apps %}
+            {% if loop.index0 < 3 %}
+              <li>{{ deferred_icon(app.icons[64], app.name|translate(feed_app.app)) }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <div class="feed-curve feed-landing-curve">
+        {% if feed_item.isBrand %}
+          <div class="brand-landing-header">
+            <div class="brand-landing-icon" data-brand-type="{{ feed_item.type }}">
+              <h3></h3>
+            </div>
+            <h1>{{ feed_item.name }}</h1>
+          </div>
+        {% else %}
+          {% if feed_item.background_image %}
+            <img class="feed-landing-bg-image"
+                 src="{{ feed_item.background_image_landing or feed_item.background_image }}"
+                 alt="" draggable="false" itemprop="contentURL">
+          {% endif %}
+          <div class="feed-landing-header-inner">
+            <h1>{{ feed_item.name|translate(feed_item)|safe }}</h1>
+            {% if feed_item.description %}
+              <p class="feed-landing-description">
+                {{ feed_item.description|translate(feed_item)|safe }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!--App list.-->
+  {% if feed_item.apps[0].group %}
+    {# Mega collection. #}
+    {% for group in feed.group_apps(feed_item.apps) %}
+      <section class="main full feed-landing-apps">
+        <div>
+          <h3 class="collection-group-header">{{ group.name }}</h3>
+          <ul class="app-list collection-group">
+            {% for app in group.apps %}
+              <li class="app-list-app">{{ app_tile(app, src=feed_item.src) }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    {% endfor %}
+  {% else %}
+    <section class="main full feed-landing-apps">
+      <div>
+        <ul class="app-list">
+          {% for app in feed_item.apps %}
+            <li class="app-list-app">{{ app_tile(app, src=feed_item.src) }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  {% endif %}
+  </div>
+{% endmacro %}
+
+{% macro shelf(shelf, landing) %}
+  {% set shelf = feed.transformer(shelf) %}
+  <section class="feed-item shelf {{ 'shelf-landing' if landing }} deferred-background"
+           style="background-image: url({{ PLACEHOLDER_ICON }})"
+           data-src="{{ shelf.background_image_landing if landing else
+                        shelf.background_image }}"
+           data-carrier="{{ shelf.carrier }}" data-region="{{ shelf.region }}">
+    <div class="feed-curve curve"></div>
+    <div class="info">
+      <h1 class="name">{{ shelf.name|translate(shelf)|safe }}</h1>
+    </div>
+  </section>
+{% endmacro %}
+
+{% macro feed_item(obj) %}
+  {% set feed_item = feed.transformer(obj[obj.item_type]) %}
+
+  {% if feed_item.isApp %}
+    {{ feed_app(feed_item) }}
+
+  {% elif feed_item.isBrand %}
+    {{ brand(feed_item) }}
+
+  {% elif feed_item.isCollection %}
+    {{ collection(feed_item) }}
+
+  {% else %}
+    <a href="{{ url('feed/shelf', [obj.shelf.slug])|urlparams(src=feed_item.src) }}"
+       class="op-shelf" data-tracking="{{ obj.shelf.slug }}">
+      {{ shelf(feed_item) }}
+    </a>
+  {% endif %}
+{% endmacro %}

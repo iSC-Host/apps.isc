@@ -1,0 +1,37 @@
+@import "lib";
+
+.compat-filter {
+    display: block;
+    margin: 0 auto;
+    right: 0;
+    text-align: center;
+    text-transform: none;
+
+    select {
+        font-size: 15px;
+        vertical-align: middle;
+        width: 229px;
+    }
+    label {
+        _h3();
+        color: $filters-label;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    .pretty-select:before {
+        background-color: $white;
+        height: 25px;
+        right: 0px;
+    }
+}
+
+.compat-select-wrapper {
+    vertical-align: middle;
+}
+
+@media $base-tablet {
+    .compat-filter .pretty-select:before {
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,30 @@
+@import 'lib';
+
+.bad-app {
+    display: none;
+}
+
+.island {
+    background: #fff;
+    box-shadow: 0 1px 1px $cement-gray;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+// Rocketship placeholder for image deferrer.
+img {
+    transition(opacity .1s);
+}
+.screenshot .deferred {
+    height: 60px;
+    width: 60px;
+}
+div .deferred-background {
+    background-size: 64px;
+    background-position: center;
+}
+.screenshot img.deferred {
+    /* Screenshots use placeholder image, make it look nice. */
+    height: 60px;
+    margin-top: 40px;
+}

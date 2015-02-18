@@ -1,0 +1,181 @@
+/*
+App listing.
+    - One column on mobile
+    - Two columns on tablet.
+    - Three columns on desktop (two when expanded).
+*/
+@import 'lib';
+
+$border = 1px solid $tile-border;
+$desktop-tile-padding = 20px 50px;
+
+.app-list-page {
+    padding: 10px 0;
+}
+
+[data-page-type~=app-list] {
+    .spinner {
+        position: relative;
+        top: 35px;
+    }
+    .feed .feed-layout-list > .info {
+        margin-left: 0;
+    }
+}
+
+.app-list {
+    list-style: none;
+
+    // Masking element to cover the last row's bottom border.
+    &:after {
+        background: $white;
+        bottom: 30px;
+        content: "";
+        display: block;
+        height: 1px;
+        left: 0;
+        max-width: $desktop-content;
+        position: absolute;
+        width: 100%;
+    }
+    &.expanded .app-list-app {
+        padding-bottom: 40px;
+    }
+}
+
+.paginated:after {
+    bottom: 102px;
+}
+
+.app-list-app {
+    border-bottom: 1px solid $filters-border;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+// Hide rating on the "new" page. Most apps there have no rating.
+[data-page-type~="new"] .mkt-tile .rating {
+    display: none;
+}
+
+[data-page-type~="purchases"] {
+    .app-list-filters,
+    .compat-filter {
+        display: none;
+    }
+    .app-list-filters-expand-wrapper {
+        margin-left: 0;
+    }
+    section.full > div {
+        padding-top: 0;
+    }
+}
+
+section.langpacks > div {
+    padding-top: 0;
+}
+
+@media $base-tablet {
+    .app-list,
+    .app-list.only-logged-in {
+        display-flex();
+    }
+    .app-list {
+        flex-wrap(wrap);
+        margin-top: 30px;
+        position: relative;
+
+        &.paginated .app-list-app:last-child {
+            border-right: 0;
+        }
+        &.expanded .app-list-app {
+            border-right: 0;
+            padding: 20px 0 40px;
+            width: 100%;
+        }
+        &:after {
+            bottom: 0;
+        }
+    }
+    .paginated:after {
+        bottom: 72px;
+    }
+    .app-list-app {
+        border-bottom: $border;
+        border-right: $border;
+        padding: $desktop-tile-padding;
+        width: 50%;
+
+        &:nth-child(2n) {
+            border-right: 0;
+            padding-right: 0;
+        }
+        &:nth-child(2n + 1) {
+            padding-left: 0;
+        }
+        &:last-child {
+            border-right: 0;
+        }
+    }
+    [data-page-type~="purchases"] {
+        .app-list-filters {
+            display: block;
+        }
+        section.full > div {
+            padding-top: 30px;
+        }
+    }
+}
+
+@media $base-desktop {
+    .app-list-page {
+        padding: 0;
+    }
+    .app-list {
+        max-width: $desktop-content;
+
+        &.paginated .app-list-app:last-child {
+            border-right: 0;
+        }
+        &.expanded {
+            .app-list-app {
+                border-right: 0;
+                margin-bottom: 20px;
+                padding: 20px 10px 50px 0;
+                width: 50%;
+
+                &:nth-child(2n) {
+                    padding: 20px 0 20px 10px;
+                }
+            }
+            .loadmore {
+                margin-top: -21px;
+            }
+        }
+    }
+    body[data-page-type~=app-list] {
+        .placeholder {
+            clear: both;
+        }
+        .spinner {
+            top: 0;
+        }
+    }
+    .app-list-app {
+        width: (100/3)%;
+
+        &:nth-child(2n),
+        &:nth-child(2n + 1) {
+            padding: $desktop-tile-padding;
+        }
+        &:nth-child(2n) {
+            border-right: $border;
+        }
+        &:nth-child(3n) {
+            border-right: 0;
+        }
+        &:last-child {
+            border-right: 0;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{% include '_macros/feed_item.html' %}
+{% include '_macros/more_button.html' %}
+
+{% if showPromo %}
+  {% include 'desktop-promo.html' %}
+
+  <div class="desktop-promo-separator"></div>
+  <p class="desktop-promo-separator-text">{{ _('More to Explore') }}</p>
+{% endif %}
+
+{% defer (url=anonApi('feed')|urlparams(limit=10), id='feed-items') %}
+  <div class="feed feed-items home-feed c" data-columns>
+    {% for item in this.objects %}
+      <div class="feed-item-item">{{ feed_item(item) }}</div>
+    {% endfor %}
+  </div>
+  {% if response.meta.next %}
+    {{ more_button(response.meta.next, ['feed-item-item']) }}
+  {% endif %}
+{% placeholder %}
+  <p class="spinner padded alt"></p>
+{% except %}
+  <p class="no-results">
+    {% if error == 400 or error == 404 %}
+      {{ _('The feed is currently empty. Come back later!') }}
+    {% elif error == 500 %}
+      {{ _('An internal server error occurred. Please try again later.') }}
+    {% endif %}
+  </p>
+{% end %}

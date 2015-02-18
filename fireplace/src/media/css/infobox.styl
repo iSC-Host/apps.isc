@@ -1,0 +1,66 @@
+@import 'lib';
+
+.infobox {
+    border-top: 1px solid $cloud-gray;
+
+    > div {
+        padding: 15px 10px;
+    }
+    .not-rated {
+        color: $medium-gray;
+    }
+    .average-rating {
+        width: 100%;
+    }
+    ul.c {
+        list-style-type: none;
+        margin: -15px 0 0;
+        padding: 0;
+
+        li {
+            float: left;
+            margin: 10px 0 0 0;
+            min-height: inherit;
+            padding-right: 5px;
+            width: 50%;
+
+            &:nth-child(even) {
+                padding: 0 0 0 5px;
+            }
+        }
+        a {
+            display: block;
+        }
+    }
+    dl {
+        margin: 15px 0 0;
+    }
+    dt, dd {
+        color: $text;
+        display: inline-block;
+    }
+    dt {
+        margin-right: 5px;
+    }
+}
+
+@media $base-desktop {
+    // Let's undo the overflow widths for desktop.
+    .infobox {
+        > div {
+            padding: 24px 15px;
+        }
+        ul.c {
+            margin: -12px;
+
+            li {
+                margin: 0;
+                padding: 12px;
+                width: 25%;
+                &:nth-child(2n) {
+                    padding: 12px;
+                }
+            }
+        }
+    }
+}

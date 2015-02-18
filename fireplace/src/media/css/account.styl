@@ -1,0 +1,139 @@
+/*
+    Account settings page.
+    Contains a lot of rules on what to show or hide if logged in or out.
+*/
+@import 'lib';
+
+.account-settings section.full > div {
+    padding-top: 30px;
+}
+
+.account-settings .hide-logged-out {
+    display: none;
+}
+
+.logged-in .account-settings {
+    .hide-logged-out {
+        display: block;
+    }
+    .hide-logged-in {
+        display: none;
+    }
+}
+
+.native-fxa .account-settings .account-settings-save .logout {
+    // Don't show logout links to native FxA users (bug 1073177).
+    display: none;
+}
+
+.account-settings {
+    color: $greyscale-black;
+    background: $tile-border;
+    width: 100%;
+
+    .account-field {
+        padding: 15px;
+
+        > label {
+            color: $greyscale-dark-grey;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+    }
+    h3 {
+        clear: both;
+        padding: 0 10px 10px;
+        text-transform: uppercase;
+    }
+    input[type=checkbox] {
+        margin-right: 5px;
+    }
+    .display-name {
+        width: 100%;
+    }
+    [name="display_name"] {
+        height: 36px;
+        width: 100%;
+    }
+    .recommendations label:last-child {
+        color: $greyscale-black;
+        display: inline;
+        line-height: 18px;
+    }
+    .region {
+        display: block;
+        margin-top: -2px;
+
+        span {
+            color: $greyscale-black;
+        }
+    }
+    .newsletter-info {
+        padding-left: 10px;
+
+        p {
+            line-height: 18px;
+            padding: 0 0 10px;
+            width: 100%;
+        }
+    }
+    .only-logged-in.extras {
+        display: none;
+    }
+}
+
+.account-settings-save,
+.account-settings-links div {
+    align-items: center;
+    display-flex();
+    flex-wrap(wrap);
+    justify-content(center);
+
+    p {
+        type_body();
+        margin: 30px 0 20px;
+    }
+    .button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.account-settings-save {
+    clear: both;
+}
+
+@media $base-tablet {
+    .logged-in .account-settings {
+        .display-name {
+            display: inline-block;
+        }
+    }
+    .account-settings {
+        .email,
+        .display-name {
+            float: left;
+            width: (100 / 3)%;
+        }
+        .display-name + div {
+            clear: both;
+        }
+    }
+    .account-settings-links div {
+        .button {
+            margin-right: 10px;
+            max-width: $mobile-content-width;
+        }
+    }
+    .account-settings-save p {
+        margin: 0;
+    }
+    .account-settings-save .button {
+        width: $mobile-content-width;
+
+        &:nth-child(1),
+        &:nth-child(2) {
+            margin-right: 10px;
+        }
+    }
+}

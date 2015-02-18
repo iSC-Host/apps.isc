@@ -1,0 +1,1514 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-11T17:58:58.145Z\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Fireplace L10n Tools 1.0\n"
+
+#: /templates/app_list.html:7
+#: /templates/category.html:17
+#: /templates/search.html:26
+#: /templates/purchases.html:7
+msgid "Expand"
+msgstr "‮Ǝxdɐup"
+
+#: /templates/app_list.html:32
+msgid "No apps found"
+msgstr "‮No ɐdds ɟonup"
+
+#: /templates/app_list.html:37
+msgid "No apps found."
+msgstr "‮No ɐdds ɟonup˙"
+
+#: /templates/app_list.html:39
+#: /templates/category.html:49
+#: /templates/purchases.html:39
+msgid "An internal server error occurred. Please try again later."
+msgstr "‮∀u ıuʇǝɹuɐʅ sǝɹʌǝɹ ǝɹɹoɹ oɔɔnɹɹǝp˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#: /templates/category.html:42
+msgid "No apps in this category"
+msgstr "‮No ɐdds ıu ʇɥıs ɔɐʇǝƃoɹʎ"
+
+#: /templates/category.html:47
+msgid "The category you requested does not exist."
+msgstr "‮⊥ɥǝ ɔɐʇǝƃoɹʎ ʎon ɹǝbnǝsʇǝp poǝs uoʇ ǝxısʇ˙"
+
+#: /templates/compatibility_filtering.html:3
+msgid "Show"
+msgstr "‮Sɥoʍ"
+
+#: /templates/compatibility_filtering.html:9
+msgid "All apps"
+msgstr "‮∀ʅʅ ɐdds"
+
+#: /templates/compatibility_filtering.html:12
+msgid "Apps for My Device"
+msgstr "‮∀dds ɟoɹ Wʎ ᗡǝʌıɔǝ"
+
+#: /templates/compatibility_filtering.html:15
+msgid "Desktop Apps"
+msgstr "‮ᗡǝsʞʇod ∀dds"
+
+#: /templates/compatibility_filtering.html:17
+msgid "Firefox OS Apps"
+msgstr "‮Ⅎıɹǝɟox OS ∀dds"
+
+#: /templates/compatibility_filtering.html:19
+msgid "Android Mobile Apps"
+msgstr "‮∀upɹoıp Woqıʅǝ ∀dds"
+
+#: /templates/compatibility_filtering.html:21
+msgid "Android Tablet Apps"
+msgstr "‮∀upɹoıp ⊥ɐqʅǝʇ ∀dds"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "‮Ↄʅosǝ"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "‮No"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "‮⅄ǝs"
+
+#: /templates/credits.html:3
+#: /media/js/views/credits.js:10
+msgid "Credits"
+msgstr "‮Ↄɹǝpıʇs"
+
+#: /templates/desktop-promo.html:1
+msgid "Previous"
+msgstr "‮Ԁɹǝʌıons"
+
+#: /templates/desktop-promo.html:10
+msgid "Next"
+msgstr "‮Nǝxʇ"
+
+#: /templates/feed.html:7
+msgid "More to Explore"
+msgstr "‮Woɹǝ ʇo Ǝxdʅoɹǝ"
+
+#: /templates/footer.html:6
+#: /templates/nav.html:31
+#: /templates/_includes/settings_hover_desktop.html:16
+#: /media/js/views/feedback.js:56
+msgid "Feedback"
+msgstr "‮Ⅎǝǝpqɐɔʞ"
+
+#: /templates/footer.html:9
+#: /templates/footer.html:13
+#: /templates/footer.html:17
+msgid "Support"
+msgstr "‮Snddoɹʇ"
+
+#: /templates/footer.html:20
+msgid "Develop Apps"
+msgstr "‮ᗡǝʌǝʅod ∀dds"
+
+#: /templates/footer.html:22
+#: /templates/_includes/settings_hover_desktop.html:14
+msgid "My Submissions"
+msgstr "‮Wʎ Snqɯıssıous"
+
+#: /templates/footer.html:25
+#: /templates/settings.html:72
+msgid "Reviewer Tools"
+msgstr "‮ᴚǝʌıǝʍǝɹ ⊥ooʅs"
+
+#: /templates/footer.html:28
+msgid "Lookup Tool"
+msgstr "‮⅂ooʞnd ⊥ooʅ"
+
+#: /templates/footer.html:34
+msgid "Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr ""
+"‮Ǝxɔǝdʇ ʍɥǝɹǝ oʇɥǝɹʍısǝ <a href=\"{legal_url}\" target=\"_blank\""
+">‮uoʇǝp</a>‮´ ɔouʇǝuʇ ou ʇɥıs sıʇǝ ıs ʅıɔǝusǝp nupǝɹ ʇɥǝ <a href=\"{cc_url}\""
+" target=\"_blank\">‮Ↄɹǝɐʇıʌǝ Ↄoɯɯous ∀ʇʇɹıqnʇıou Sɥɐɹǝ-∀ʅıʞǝ ⅂ıɔǝusǝ "
+"ʌ3.0</a>‮ oɹ ɐuʎ ʅɐʇǝɹ ʌǝɹsıou˙"
+
+#: /templates/footer.html:39
+#: /templates/privacy.html:2
+#: /templates/settings.html:68
+#: /templates/app/index.html:115
+#: /templates/app/privacy.html:2
+#: /media/js/views/privacy.js:10
+#: /media/js/views/app/privacy.js:7
+msgid "Privacy Policy"
+msgstr "‮Ԁɹıʌɐɔʎ Ԁoʅıɔʎ"
+
+#: /templates/footer.html:40
+#: /templates/settings.html:69
+#: /templates/terms.html:2
+#: /media/js/views/terms.js:10
+msgid "Terms of Use"
+msgstr "‮⊥ǝɹɯs oɟ ∩sǝ"
+
+#: /templates/footer.html:42
+msgid "Report Trademark Abuse"
+msgstr "‮ᴚǝdoɹʇ ⊥ɹɐpǝɯɐɹʞ ∀qnsǝ"
+
+#: /templates/feedback.html:5
+msgid "We want to hear from you!"
+msgstr "‮Ｍǝ ʍɐuʇ ʇo ɥǝɐɹ ɟɹoɯ ʎon¡"
+
+#: /templates/feedback.html:6
+msgid "Give us your feedback. Let us know whether we are awesome or buggy."
+msgstr "‮⅁ıʌǝ ns ʎonɹ ɟǝǝpqɐɔʞ˙ ⅂ǝʇ ns ʞuoʍ ʍɥǝʇɥǝɹ ʍǝ ɐɹǝ ɐʍǝsoɯǝ oɹ qnƃƃʎ˙"
+
+#: /templates/feedback.html:7
+#: /templates/app/abuse.html:7
+msgid "Let us know..."
+msgstr "‮⅂ǝʇ ns ʞuoʍ˙˙˙"
+
+#: /templates/feedback.html:11
+#: /templates/newsletter.html:36
+#: /templates/app/abuse.html:12
+#: /templates/ratings/add.html:30
+#: /templates/ratings/flag.html:17
+msgid "Cancel"
+msgstr "‮Ↄɐuɔǝʅ"
+
+#: /templates/feedback.html:12
+msgid "Submit Feedback"
+msgstr "‮Snqɯıʇ Ⅎǝǝpqɐɔʞ"
+
+#: /templates/feedback.html:28
+#: /templates/feedback.html:31
+msgid "Get Help"
+msgstr "‮⅁ǝʇ Hǝʅd"
+
+#: /templates/header.html:1
+#: /templates/header.html:2
+msgid "Back"
+msgstr "‮Ԑɐɔʞ"
+
+#: /templates/header.html:13
+msgid "Search"
+msgstr "‮Sǝɐɹɔɥ"
+
+#: /templates/header.html:18
+msgid "Search the Marketplace"
+msgstr "‮Sǝɐɹɔɥ ʇɥǝ Wɐɹʞǝʇdʅɐɔǝ"
+
+#: /templates/header.html:20
+#: /templates/header.html:20
+msgid "Clear"
+msgstr "‮Ↄʅǝɐɹ"
+
+#: /templates/header.html:26
+#: /templates/purchases.html:47
+#: /templates/settings.html:41
+msgid "Sign In"
+msgstr "‮Sıƃu Iu"
+
+#: /templates/header.html:27
+#: /templates/purchases.html:46
+#: /templates/settings.html:40
+msgid "Register"
+msgstr "‮ᴚǝƃısʇǝɹ"
+
+#: /templates/marketplace-update.html:2
+msgid "An update to Marketplace is available."
+msgstr "‮∀u ndpɐʇǝ ʇo Wɐɹʞǝʇdʅɐɔǝ ıs ɐʌɐıʅɐqʅǝ˙"
+
+#: /templates/marketplace-update.html:4
+#: /templates/incompatible.html:2
+msgid "Download"
+msgstr "‮ᗡoʍuʅoɐp"
+
+#: /templates/incompatible.html:1
+msgid "You must use Firefox to install Firefox apps."
+msgstr "‮⅄on ɯnsʇ nsǝ Ⅎıɹǝɟox ʇo ıusʇɐʅʅ Ⅎıɹǝɟox ɐdds˙"
+
+#: /templates/nav.html:7
+#: /templates/_includes/settings_hover_desktop.html:2
+msgid "Settings"
+msgstr "‮Sǝʇʇıuƃs"
+
+#: /templates/nav.html:14
+msgid "Home"
+msgstr "‮Hoɯǝ"
+
+#: /templates/nav.html:15
+#: /templates/_includes/app_list_filters.html:10
+#: /media/js/views/new.js:9
+msgid "New"
+msgstr "‮Nǝʍ"
+
+#: /templates/nav.html:16
+#: /templates/_includes/app_list_filters.html:5
+#: /media/js/views/popular.js:9
+msgid "Popular"
+msgstr "‮Ԁodnʅɐɹ"
+
+#: /templates/nav.html:17
+#: /media/js/views/recommended.js:19
+msgid "Recommended"
+msgstr "‮ᴚǝɔoɯɯǝupǝp"
+
+#: /templates/nav.html:20
+#: /templates/nav.html:21
+#: /templates/app/index.html:217
+#: /media/js/views/categories.js:9
+msgid "Categories"
+msgstr "‮Ↄɐʇǝƃoɹıǝs"
+
+#: /templates/nav.html:29
+msgid "My Account"
+msgstr "‮Wʎ ∀ɔɔonuʇ"
+
+#: /templates/nav.html:30
+#: /templates/purchases.html:6
+#: /templates/purchases.html:31
+#: /templates/_includes/settings_hover_desktop.html:12
+#: /media/js/views/purchases.js:10
+msgid "My Apps"
+msgstr "‮Wʎ ∀dds"
+
+#: /templates/nav.html:36
+msgid "Back to Marketplace"
+msgstr "‮Ԑɐɔʞ ʇo Wɐɹʞǝʇdʅɐɔǝ"
+
+#: /templates/search.html:19
+msgid "<b>\"{search_query}\"</b> returned {n} result"
+msgid_plural "<b>\"{search_query}\"</b> returned {n} results"
+msgstr[0] "<b>‮„{sǝɐɹɔɥ_bnǝɹʎ}„</b>‮ ɹǝʇnɹuǝp {u} ɹǝsnʅʇ"
+msgstr[1] "<b>‮„{sǝɐɹɔɥ_bnǝɹʎ}„</b>‮ ɹǝʇnɹuǝp {u} ɹǝsnʅʇs"
+
+#: /templates/search.html:25
+msgid "<b>{n}</b> Result"
+msgid_plural "<b>{n}</b> Results"
+msgstr[0] "<b>‮{u}</b>‮ ᴚǝsnʅʇ"
+msgstr[1] "<b>‮{u}</b>‮ ᴚǝsnʅʇs"
+
+#: /templates/search.html:55
+msgid "No results found"
+msgstr "‮No ɹǝsnʅʇs ɟonup"
+
+#: /templates/search.html:61
+msgid "No results found, try again later"
+msgstr "‮No ɹǝsnʅʇs ɟonup´ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ"
+
+#: /templates/purchases.html:45
+msgid "You must be signed in to view your apps."
+msgstr "‮⅄on ɯnsʇ qǝ sıƃuǝp ıu ʇo ʌıǝʍ ʎonɹ ɐdds˙"
+
+#: /templates/purchases.html:34
+msgid "You have no apps"
+msgstr "‮⅄on ɥɐʌǝ uo ɐdds"
+
+#: /templates/purchases.html:38
+#: /templates/errors/404.html:8
+#: /templates/errors/fragment.html:1
+#: /media/js/views/app.js:52
+msgid "Oh no!"
+msgstr "‮Oɥ uo¡"
+
+#: /templates/newsletter.html:3
+msgid "Sign up for our newsletter"
+msgstr "‮Sıƃu nd ɟoɹ onɹ uǝʍsʅǝʇʇǝɹ"
+
+#: /templates/newsletter.html:5
+msgid "Get Firefox news! Sign up for our newsletter"
+msgstr "‮⅁ǝʇ Ⅎıɹǝɟox uǝʍs¡ Sıƃu nd ɟoɹ onɹ uǝʍsʅǝʇʇǝɹ"
+
+#: /templates/newsletter.html:7
+msgid "Email"
+msgstr "‮Ǝɯɐıʅ"
+
+#: /templates/newsletter.html:8
+#: /templates/newsletter.html:35
+msgid "Sign me up"
+msgstr "‮Sıƃu ɯǝ nd"
+
+#: /templates/newsletter.html:30
+msgid "I'm okay with Mozilla handling my info as explained in <a href=\"{privacy_policy_url}\" target=\"_blank\">this Privacy Policy</a>."
+msgstr ""
+"‮I,ɯ oʞɐʎ ʍıʇɥ Wozıʅʅɐ ɥɐupʅıuƃ ɯʎ ıuɟo ɐs ǝxdʅɐıuǝp ıu <a href=\""
+"{privacy_policy_url}\" target=\"_blank\">‮ʇɥıs Ԁɹıʌɐɔʎ Ԁoʅıɔʎ</a>‮˙"
+
+#: /templates/newsletter.html:42
+msgid "Thanks for signing up!"
+msgstr "‮⊥ɥɐuʞs ɟoɹ sıƃuıuƃ nd¡"
+
+#: /templates/newsletter.html:43
+msgid "You'll receive an email from mozilla@e.mozilla.org, please check your inbox for your first email from us. If you don’t see it, check your spam filter."
+msgstr ""
+"‮⅄on,ʅʅ ɹǝɔǝıʌǝ ɐu ǝɯɐıʅ ɟɹoɯ mozilla@e.mozilla.org‮´ dʅǝɐsǝ ɔɥǝɔʞ ʎonɹ "
+"ıuqox ɟoɹ ʎonɹ ɟıɹsʇ ǝɯɐıʅ ɟɹoɯ ns˙ Iɟ ʎon pou’‮ʇ sǝǝ ıʇ´ ɔɥǝɔʞ ʎonɹ sdɐɯ "
+"ɟıʅʇǝɹ˙"
+
+#: /templates/settings.html:2
+#: /media/js/views/settings.js:54
+msgid "Account Settings"
+msgstr "‮∀ɔɔonuʇ Sǝʇʇıuƃs"
+
+#: /templates/settings.html:9
+msgid "General settings"
+msgstr "‮⅁ǝuǝɹɐʅ sǝʇʇıuƃs"
+
+#: /templates/settings.html:12
+msgid "Email Address"
+msgstr "‮Ǝɯɐıʅ ∀ppɹǝss"
+
+#: /templates/settings.html:17
+msgid "Display Name"
+msgstr "‮ᗡısdʅɐʎ Nɐɯǝ"
+
+#: /templates/settings.html:24
+msgid "Recommendations"
+msgstr "‮ᴚǝɔoɯɯǝupɐʇıous"
+
+#: /templates/settings.html:28
+msgid "Yes, show me recommendations based on my installed apps. <a href=\"{url}\" target=\"_blank\">Learn more</a>"
+msgstr ""
+"‮⅄ǝs´ sɥoʍ ɯǝ ɹǝɔoɯɯǝupɐʇıous qɐsǝp ou ɯʎ ıusʇɐʅʅǝp ɐdds˙ <a href=\"{url}\" "
+"target=\"_blank\">‮⅂ǝɐɹu ɯoɹǝ</a>"
+
+#: /templates/settings.html:33
+msgid "Region"
+msgstr "‮ᴚǝƃıou"
+
+#: /templates/settings.html:39
+msgid "Save Changes"
+msgstr "‮Sɐʌǝ Ↄɥɐuƃǝs"
+
+#: /templates/settings.html:42
+#: /templates/_includes/settings_hover_desktop.html:17
+msgid "Sign Out"
+msgstr "‮Sıƃu Onʇ"
+
+#: /templates/settings.html:49
+msgid "Newsletter"
+msgstr "‮Nǝʍsʅǝʇʇǝɹ"
+
+#: /templates/settings.html:54
+msgid "Get Firefox News."
+msgstr "‮⅁ǝʇ Ⅎıɹǝɟox Nǝʍs˙"
+
+#: /templates/settings.html:56
+msgid "Sign up for our newsletter."
+msgstr "‮Sıƃu nd ɟoɹ onɹ uǝʍsʅǝʇʇǝɹ˙"
+
+#: /templates/settings.html:66
+msgid "Get Involved"
+msgstr "‮⅁ǝʇ Iuʌoʅʌǝp"
+
+#: /templates/app/abuse.html:5
+msgid "Need to report something?"
+msgstr "‮Nǝǝp ʇo ɹǝdoɹʇ soɯǝʇɥıuƃ¿"
+
+#: /templates/app/abuse.html:6
+msgid "Let us know if you find any issues regarding abuse about this app."
+msgstr "‮⅂ǝʇ ns ʞuoʍ ıɟ ʎon ɟıup ɐuʎ ıssnǝs ɹǝƃɐɹpıuƃ ɐqnsǝ ɐqonʇ ʇɥıs ɐdd˙"
+
+#: /templates/app/abuse.html:13
+msgid "Submit Report"
+msgstr "‮Snqɯıʇ ᴚǝdoɹʇ"
+
+#: /templates/app/abuse.html:21
+#: /templates/app/index.html:250
+#: /media/js/views/app/abuse.js:51
+msgid "Report Abuse"
+msgstr "‮ᴚǝdoɹʇ ∀qnsǝ"
+
+#. delimiter to separate list of words (e.g., "eggs, ham, cheese").
+#: /templates/app/index.html:60
+#: /media/js/feed.js:35
+msgid "Description"
+msgstr "‮ᗡǝsɔɹıdʇıou"
+
+#: /templates/app/index.html:66
+#: /templates/app/index.html:79
+msgid "View All"
+msgstr "‮Ʌıǝʍ ∀ʅʅ"
+
+#: /templates/app/index.html:75
+msgid "Updates"
+msgstr "‮∩dpɐʇǝs"
+
+#: /templates/app/index.html:86
+msgid "Version"
+msgstr "‮Ʌǝɹsıou"
+
+#: /templates/app/index.html:87
+msgid "Latest version: {version}"
+msgstr "‮⅂ɐʇǝsʇ ʌǝɹsıou: {ʌǝɹsıou}"
+
+#: /templates/app/index.html:96
+msgid "Email Support"
+msgstr "‮Ǝɯɐıʅ Snddoɹʇ"
+
+#: /templates/app/index.html:103
+msgid "Support Site"
+msgstr "‮Snddoɹʇ Sıʇǝ"
+
+#: /templates/app/index.html:109
+msgid "Homepage"
+msgstr "‮Hoɯǝdɐƃǝ"
+
+#: /templates/app/index.html:122
+msgid "Statistics"
+msgstr "‮Sʇɐʇısʇıɔs"
+
+#: /templates/app/index.html:129
+msgid "Edit Listing"
+msgstr "‮Ǝpıʇ ⅂ısʇıuƃ"
+
+#: /templates/app/index.html:137
+msgid "Approve / Reject"
+msgstr "‮∀ddɹoʌǝ / ᴚǝɾǝɔʇ"
+
+#: /templates/app/index.html:138
+msgid "Review History"
+msgstr "‮ᴚǝʌıǝʍ Hısʇoɹʎ"
+
+#: /templates/app/index.html:155
+#: /templates/ratings/main.html:14
+#: /media/js/views/app/ratings.js:10
+msgid "Reviews"
+msgstr "‮ᴚǝʌıǝʍs"
+
+#: /templates/app/index.html:166
+msgid "App not yet reviewed"
+msgstr "‮∀dd uoʇ ʎǝʇ ɹǝʌıǝʍǝp"
+
+#: /templates/app/index.html:185
+msgid "Premium version available"
+msgstr "‮Ԁɹǝɯınɯ ʌǝɹsıou ɐʌɐıʅɐqʅǝ"
+
+#: /templates/app/index.html:203
+msgid "More Information"
+msgstr "‮Woɹǝ Iuɟoɹɯɐʇıou"
+
+#: /templates/app/index.html:206
+msgid "Developer"
+msgstr "‮ᗡǝʌǝʅodǝɹ"
+
+#: /templates/app/index.html:210
+msgid "Compatibility"
+msgstr "‮Ↄoɯdɐʇıqıʅıʇʎ"
+
+#. delimiter to separate list of words (e.g., "eggs, ham, cheese").
+#: /templates/app/index.html:213
+#: /templates/app/index.html:221
+msgid ","
+msgstr "‮´"
+
+#: /templates/app/index.html:227
+msgid "File Size"
+msgstr "‮Ⅎıʅǝ Sızǝ"
+
+#: /templates/app/index.html:232
+msgid "Most Recent Version"
+msgstr "‮Wosʇ ᴚǝɔǝuʇ Ʌǝɹsıou"
+
+#: /templates/app/privacy.html:8
+msgid "Back to app"
+msgstr "‮Ԑɐɔʞ ʇo ɐdd"
+
+#: /templates/app/privacy.html:11
+msgid "Loading Privacy Policy..."
+msgstr "‮⅂oɐpıuƃ Ԁɹıʌɐɔʎ Ԁoʅıɔʎ˙˙˙"
+
+#: /templates/app/receipt.html:2
+msgid "Thank you for purchasing"
+msgstr "‮⊥ɥɐuʞ ʎon ɟoɹ dnɹɔɥɐsıuƃ"
+
+#: /templates/_macros/app_tile.html:111
+#: /templates/_macros/app_tile.html:114
+msgid "{app_name} screenshot"
+msgstr "‮{ɐdd_uɐɯǝ} sɔɹǝǝusɥoʇ"
+
+#: /templates/_macros/app_tile.html:129
+msgid "Review"
+msgid_plural "Reviews"
+msgstr[0] "‮ᴚǝʌıǝʍ"
+msgstr[1] "‮ᴚǝʌıǝʍs"
+
+#: /templates/_macros/app_tile.html:133
+msgid "Not yet reviewed"
+msgstr "‮Noʇ ʎǝʇ ɹǝʌıǝʍǝp"
+
+#: /templates/_macros/feed_app_tile.html:16
+msgid "&mdash; {attribution}"
+msgstr "&mdash;‮ {ɐʇʇɹıqnʇıou}"
+
+#: /templates/_macros/feed_item.html:109
+#: /templates/_macros/feed_item.html:191
+msgid "View all apps"
+msgstr "‮Ʌıǝʍ ɐʅʅ ɐdds"
+
+#. This app is unavailable for purchase.
+#: /templates/_macros/market_button.html:8
+msgid "Unavailable"
+msgstr "‮∩uɐʌɐıʅɐqʅǝ"
+
+#: /templates/_macros/market_button.html:10
+msgid "Free"
+msgstr "‮Ⅎɹǝǝ"
+
+#: /templates/_macros/market_button.html:21
+#: /media/js/apps_buttons.js:284
+msgid "Open"
+msgstr "‮Odǝu"
+
+#: /templates/_macros/market_button.html:23
+#: /media/js/apps_buttons.js:108
+#: /media/js/apps_buttons.js:311
+msgid "Install"
+msgstr "‮Iusʇɐʅʅ"
+
+#: /templates/_macros/more_button.html:3
+msgid "Load more"
+msgstr "‮⅂oɐp ɯoɹǝ"
+
+#: /templates/_macros/review.html:12
+msgid "For previous version {version}"
+msgstr "‮Ⅎoɹ dɹǝʌıons ʌǝɹsıou {ʌǝɹsıou}"
+
+#: /templates/_macros/review.html:21
+msgid "Flagged for review"
+msgstr "‮Ⅎʅɐƃƃǝp ɟoɹ ɹǝʌıǝʍ"
+
+#: /templates/_macros/review.html:25
+#: /templates/_macros/review.html:29
+msgid "Edit"
+msgstr "‮Ǝpıʇ"
+
+#: /templates/_macros/review.html:36
+msgid "Delete"
+msgstr "‮ᗡǝʅǝʇǝ"
+
+#: /templates/_macros/review.html:41
+msgid "Report"
+msgstr "‮ᴚǝdoɹʇ"
+
+#: /templates/_macros/stars.html:5
+msgid "Rated {stars} out of {maxstars} stars"
+msgstr "‮ᴚɐʇǝp {sʇɐɹs} onʇ oɟ {ɯɐxsʇɐɹs} sʇɐɹs"
+
+#: /templates/_includes/back_to_app.html:5
+msgid "Back to {app}"
+msgstr "‮Ԑɐɔʞ ʇo {ɐdd}"
+
+#: /templates/_includes/app_list_filters.html:15
+msgid "Display as"
+msgstr "‮ᗡısdʅɐʎ ɐs"
+
+#: /templates/_includes/app_list_filters.html:16
+msgid "Toggle App Previews"
+msgstr "‮⊥oƃƃʅǝ ∀dd Ԁɹǝʌıǝʍs"
+
+#. (es) Classificacao Indicativa.
+#: /templates/_includes/content_ratings.html:5
+msgid "Content Rating"
+msgstr "‮Ↄouʇǝuʇ ᴚɐʇıuƃ"
+
+#. (es) Classificacao Indicativa. Rating as in content rating.
+#: /templates/_includes/content_ratings.html:77
+msgid "Rating Details"
+msgstr "‮ᴚɐʇıuƃ ᗡǝʇɐıʅs"
+
+#: /templates/_includes/post_install_message.html:2
+msgid "Installed!"
+msgstr "‮Iusʇɐʅʅǝp¡"
+
+#: /templates/_includes/post_install_message.html:5
+msgid "Launch this app from your <b>Applications</b> directory."
+msgstr "‮⅂ɐnuɔɥ ʇɥıs ɐdd ɟɹoɯ ʎonɹ <b>‮∀ddʅıɔɐʇıous</b>‮ pıɹǝɔʇoɹʎ˙"
+
+#: /templates/_includes/post_install_message.html:8
+msgid "Launch this app from your <b>Windows desktop</b> or <b>Start &#9658; All Programs</b>."
+msgstr ""
+"‮⅂ɐnuɔɥ ʇɥıs ɐdd ɟɹoɯ ʎonɹ <b>‮Ｍıupoʍs pǝsʞʇod</b>‮ oɹ <b>‮Sʇɐɹʇ &#9658;‮ ∀"
+"ʅʅ Ԁɹoƃɹɐɯs</b>‮˙"
+
+#: /templates/_includes/post_install_message.html:11
+msgid "Launch this app from your <b>dash</b>, <b>Application picker</b>, or <b>Applications menu</b>."
+msgstr ""
+"‮⅂ɐnuɔɥ ʇɥıs ɐdd ɟɹoɯ ʎonɹ <b>‮pɐsɥ</b>‮´ <b>‮∀ddʅıɔɐʇıou dıɔʞǝɹ</b>‮´ oɹ "
+"<b>‮∀ddʅıɔɐʇıous ɯǝun</b>‮˙"
+
+#: /templates/_includes/os_x_banner.html:2
+msgid "Your Mac settings may only allow you to install apps from the Mac App Store."
+msgstr ""
+"‮⅄onɹ Wɐɔ sǝʇʇıuƃs ɯɐʎ ouʅʎ ɐʅʅoʍ ʎon ʇo ıusʇɐʅʅ ɐdds ɟɹoɯ ʇɥǝ Wɐɔ ∀dd Sʇoɹǝ˙"
+
+#: /templates/_includes/os_x_banner.html:5
+msgid "Learn how to change them."
+msgstr "‮⅂ǝɐɹu ɥoʍ ʇo ɔɥɐuƃǝ ʇɥǝɯ˙"
+
+#: /templates/_includes/reviews_sidebar.html:9
+msgid "Edit your Review"
+msgstr "‮Ǝpıʇ ʎonɹ ᴚǝʌıǝʍ"
+
+#: /templates/_includes/reviews_sidebar.html:11
+msgid "Edit your review"
+msgstr "‮Ǝpıʇ ʎonɹ ɹǝʌıǝʍ"
+
+#: /templates/_includes/reviews_sidebar.html:18
+msgid "Write a review"
+msgstr "‮Ｍɹıʇǝ ɐ ɹǝʌıǝʍ"
+
+#: /templates/_includes/reviews_sidebar.html:18
+msgid "Sign in to review"
+msgstr "‮Sıƃu ıu ʇo ɹǝʌıǝʍ"
+
+#: /templates/_includes/reviews_sidebar.html:26
+msgid "Read all reviews"
+msgstr "‮ᴚǝɐp ɐʅʅ ɹǝʌıǝʍs"
+
+#: /templates/errors/404.html:9
+msgid "The page you were looking for was not found."
+msgstr "‮⊥ɥǝ dɐƃǝ ʎon ʍǝɹǝ ʅooʞıuƃ ɟoɹ ʍɐs uoʇ ɟonup˙"
+
+#: /templates/errors/date-error.html:2
+msgid "System Date Incorrect"
+msgstr "‮Sʎsʇǝɯ ᗡɐʇǝ Iuɔoɹɹǝɔʇ"
+
+#: /templates/errors/date-error.html:3
+msgid "Sorry, your device clock appears to be set incorrectly."
+msgstr "‮Soɹɹʎ´ ʎonɹ pǝʌıɔǝ ɔʅoɔʞ ɐddǝɐɹs ʇo qǝ sǝʇ ıuɔoɹɹǝɔʇʅʎ˙"
+
+#: /templates/errors/date-error.html:4
+msgid "Please set today's date and time in your device settings to access the Marketplace."
+msgstr ""
+"‮Ԁʅǝɐsǝ sǝʇ ʇopɐʎ,s pɐʇǝ ɐup ʇıɯǝ ıu ʎonɹ pǝʌıɔǝ sǝʇʇıuƃs ʇo ɐɔɔǝss ʇɥǝ "
+"Wɐɹʞǝʇdʅɐɔǝ˙"
+
+#: /templates/errors/date-error.html:5
+#: /templates/errors/offline-error.html:4
+msgid "Try again"
+msgstr "‮⊥ɹʎ ɐƃɐıu"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "‮∀u ǝɹɹoɹ oɔɔnɹɹǝp˙"
+
+#: /templates/errors/offline-error.html:2
+msgid "Currently Offline"
+msgstr "‮Ↄnɹɹǝuʇʅʎ Oɟɟʅıuǝ"
+
+#: /templates/errors/offline-error.html:3
+msgid "Sorry, you need to be online to access the Marketplace."
+msgstr "‮Soɹɹʎ´ ʎon uǝǝp ʇo qǝ ouʅıuǝ ʇo ɐɔɔǝss ʇɥǝ Wɐɹʞǝʇdʅɐɔǝ˙"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "‮⊥ɹʎ ∀ƃɐıu"
+
+#: /templates/_includes/reviews_summary.html:9
+msgid "1 Review"
+msgid_plural "{numReviews} Reviews"
+msgstr[0] "1‮ ᴚǝʌıǝʍ"
+msgstr[1] "‮{unɯᴚǝʌıǝʍs} ᴚǝʌıǝʍs"
+
+#: /templates/ratings/add.html:8
+#: /templates/ratings/edit.html:3
+#: /media/js/views/app/ratings/edit.js:48
+msgid "Edit Review"
+msgstr "‮Ǝpıʇ ᴚǝʌıǝʍ"
+
+#: /templates/ratings/add.html:8
+#: /templates/ratings/add.html:39
+#: /media/js/views/app/ratings/add.js:22
+msgid "Leave a Review"
+msgstr "‮⅂ǝɐʌǝ ɐ ᴚǝʌıǝʍ"
+
+#: /templates/ratings/add.html:11
+msgid "Rate:"
+msgstr "‮ᴚɐʇǝ:"
+
+#: /templates/ratings/add.html:22
+msgid "Tell us what you love about this app!"
+msgstr "‮⊥ǝʅʅ ns ʍɥɐʇ ʎon ʅoʌǝ ɐqonʇ ʇɥıs ɐdd¡"
+
+#: /templates/ratings/add.html:27
+msgid "Only users that are logged in may submit reviews."
+msgstr "‮Ouʅʎ nsǝɹs ʇɥɐʇ ɐɹǝ ʅoƃƃǝp ıu ɯɐʎ snqɯıʇ ɹǝʌıǝʍs˙"
+
+#: /templates/ratings/add.html:31
+msgid "Update Review"
+msgstr "‮∩dpɐʇǝ ᴚǝʌıǝʍ"
+
+#: /templates/ratings/add.html:31
+msgid "Submit Review"
+msgstr "‮Snqɯıʇ ᴚǝʌıǝʍ"
+
+#: /templates/ratings/flag.html:3
+#: /templates/ratings/flag.html:26
+msgid "Flag Review"
+msgstr "‮Ⅎʅɐƃ ᴚǝʌıǝʍ"
+
+#: /templates/ratings/flag.html:4
+msgid "See an issue with this review? Select a reason below."
+msgstr "‮Sǝǝ ɐu ıssnǝ ʍıʇɥ ʇɥıs ɹǝʌıǝʍ¿ Sǝʅǝɔʇ ɐ ɹǝɐsou qǝʅoʍ˙"
+
+#: /templates/ratings/flag.html:7
+msgid "Spam or otherwise non-review content"
+msgstr "‮Sdɐɯ oɹ oʇɥǝɹʍısǝ uou-ɹǝʌıǝʍ ɔouʇǝuʇ"
+
+#: /templates/ratings/flag.html:10
+msgid "Inappropriate language/dialog"
+msgstr "‮Iuɐddɹodɹıɐʇǝ ʅɐuƃnɐƃǝ/dialog"
+
+#: /templates/ratings/flag.html:13
+msgid "Misplaced bug report or support request"
+msgstr "‮Wısdʅɐɔǝp qnƃ ɹǝdoɹʇ oɹ snddoɹʇ ɹǝbnǝsʇ"
+
+#: /templates/ratings/main.html:38
+msgid "This app has no reviews."
+msgstr "‮⊥ɥıs ɐdd ɥɐs uo ɹǝʌıǝʍs˙"
+
+#: /templates/ratings/rating.html:4
+#: /media/js/views/app/ratings/rating.js:13
+msgid "App Review"
+msgstr "‮∀dd ᴚǝʌıǝʍ"
+
+#: /templates/_includes/settings_hover_desktop.html:10
+msgid "Edit Account Settings"
+msgstr "‮Ǝpıʇ ∀ɔɔonuʇ Sǝʇʇıuƃs"
+
+#: /media/js/apps.js:99
+msgid "Not available for your region"
+msgstr "‮Noʇ ɐʌɐıʅɐqʅǝ ɟoɹ ʎonɹ ɹǝƃıou"
+
+#: /media/js/apps.js:104
+msgid "Not available for your platform"
+msgstr "‮Noʇ ɐʌɐıʅɐqʅǝ ɟoɹ ʎonɹ dʅɐʇɟoɹɯ"
+
+#. "Open" as in "Open the app".
+#: /media/js/apps_buttons.js:63
+#: /media/js/apps_buttons.js:132
+#: /media/js/payments.js:131
+msgid "Payment cancelled."
+msgstr "‮Ԁɐʎɯǝuʇ ɔɐuɔǝʅʅǝp˙"
+
+#: /media/js/apps_buttons.js:97
+msgid "Purchasing"
+msgstr "‮Ԁnɹɔɥɐsıuƃ"
+
+#: /media/js/apps_buttons.js:173
+#: /media/js/installer_direct.js:178
+msgid "Sorry, we had trouble fetching this app's data. Please try again later."
+msgstr ""
+"‮Soɹɹʎ´ ʍǝ ɥɐp ʇɹonqʅǝ ɟǝʇɔɥıuƃ ʇɥıs ɐdd,s pɐʇɐ˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#. The app's installation has failed, but the problem is temporary.
+#: /media/js/apps_buttons.js:216
+msgid "Install failed. Please try again later."
+msgstr "‮Iusʇɐʅʅ ɟɐıʅǝp˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#: /media/js/categories.js:6
+msgid "Games"
+msgstr "‮⅁ɐɯǝs"
+
+#: /media/js/categories.js:7
+msgid "Books"
+msgstr "‮Ԑooʞs"
+
+#: /media/js/categories.js:8
+msgid "Business"
+msgstr "‮Ԑnsıuǝss"
+
+#: /media/js/categories.js:9
+msgid "Education"
+msgstr "‮Ǝpnɔɐʇıou"
+
+#: /media/js/categories.js:10
+msgid "Entertainment"
+msgstr "‮Ǝuʇǝɹʇɐıuɯǝuʇ"
+
+#: /media/js/categories.js:11
+msgid "Health & Fitness"
+msgstr "‮Hǝɐʅʇɥ ⅋ Ⅎıʇuǝss"
+
+#: /media/js/categories.js:12
+msgid "Lifestyle"
+msgstr "‮⅂ıɟǝsʇʎʅǝ"
+
+#: /media/js/categories.js:13
+msgid "Maps & Navigation"
+msgstr "‮Wɐds ⅋ Nɐʌıƃɐʇıou"
+
+#: /media/js/categories.js:14
+msgid "Music"
+msgstr "‮Wnsıɔ"
+
+#: /media/js/categories.js:15
+msgid "News & Weather"
+msgstr "‮Nǝʍs ⅋ Ｍǝɐʇɥǝɹ"
+
+#: /media/js/categories.js:16
+msgid "Photo & Video"
+msgstr "‮Ԁɥoʇo ⅋ Ʌıpǝo"
+
+#: /media/js/categories.js:17
+msgid "Productivity"
+msgstr "‮Ԁɹopnɔʇıʌıʇʎ"
+
+#: /media/js/categories.js:18
+msgid "Reference"
+msgstr "‮ᴚǝɟǝɹǝuɔǝ"
+
+#: /media/js/categories.js:19
+msgid "Shopping"
+msgstr "‮Sɥoddıuƃ"
+
+#: /media/js/categories.js:20
+msgid "Social"
+msgstr "‮Soɔıɐʅ"
+
+#: /media/js/categories.js:21
+msgid "Sports"
+msgstr "‮Sdoɹʇs"
+
+#: /media/js/categories.js:22
+msgid "Travel"
+msgstr "‮⊥ɹɐʌǝʅ"
+
+#: /media/js/categories.js:23
+msgid "Utilities"
+msgstr "‮∩ʇıʅıʇıǝs"
+
+#: /media/js/compatibility_filtering.js:15
+msgid "Android Mobile"
+msgstr "‮∀upɹoıp Woqıʅǝ"
+
+#: /media/js/compatibility_filtering.js:16
+msgid "Android Tablet"
+msgstr "‮∀upɹoıp ⊥ɐqʅǝʇ"
+
+#: /media/js/compatibility_filtering.js:17
+msgid "Desktop"
+msgstr "‮ᗡǝsʞʇod"
+
+#: /media/js/compatibility_filtering.js:18
+msgid "Firefox OS"
+msgstr "‮Ⅎıɹǝɟox OS"
+
+#. For ages {0} and higher. (de) `ab {0} Jahren`.
+#: /media/js/content-ratings.js:98
+msgid "For ages {0}+"
+msgstr "‮Ⅎoɹ ɐƃǝs {0}‮+"
+
+#: /media/js/content-ratings.js:104
+msgid "Generic"
+msgstr "‮⅁ǝuǝɹıɔ"
+
+#: /media/js/content-ratings.js:111
+msgid "For all ages"
+msgstr "‮Ⅎoɹ ɐʅʅ ɐƃǝs"
+
+#: /media/js/content-ratings.js:120
+msgid "Rating Pending"
+msgstr "‮ᴚɐʇıuƃ Ԁǝupıuƃ"
+
+#: /media/js/content-ratings.js:121
+msgid "Rating Refused"
+msgstr "‮ᴚɐʇıuƃ ᴚǝɟnsǝp"
+
+#: /media/js/content-ratings.js:124
+msgid "Everyone"
+msgstr "‮Ǝʌǝɹʎouǝ"
+
+#: /media/js/content-ratings.js:125
+msgid "Everyone 10+"
+msgstr "‮Ǝʌǝɹʎouǝ 10‮+"
+
+#: /media/js/content-ratings.js:126
+msgid "Teen"
+msgstr "‮⊥ǝǝu"
+
+#: /media/js/content-ratings.js:127
+msgid "Mature 17+"
+msgstr "‮Wɐʇnɹǝ 17‮+"
+
+#: /media/js/content-ratings.js:128
+msgid "Adults Only 18+"
+msgstr "‮∀pnʅʇs Ouʅʎ 18‮+"
+
+#: /media/js/edbrands.js:33
+msgid "App for Albania"
+msgid_plural "Apps for Albania"
+msgstr[0] "‮∀dd ɟoɹ ∀ʅqɐuıɐ"
+msgstr[1] "‮∀dds ɟoɹ ∀ʅqɐuıɐ"
+
+#: /media/js/edbrands.js:34
+msgid "App for Argentina"
+msgid_plural "Apps for Argentina"
+msgstr[0] "‮∀dd ɟoɹ ∀ɹƃǝuʇıuɐ"
+msgstr[1] "‮∀dds ɟoɹ ∀ɹƃǝuʇıuɐ"
+
+#: /media/js/edbrands.js:35
+msgid "App for Bangladesh"
+msgid_plural "Apps for Bangladesh"
+msgstr[0] "‮∀dd ɟoɹ Ԑɐuƃʅɐpǝsɥ"
+msgstr[1] "‮∀dds ɟoɹ Ԑɐuƃʅɐpǝsɥ"
+
+#: /media/js/edbrands.js:36
+msgid "App for Brazil"
+msgid_plural "Apps for Brazil"
+msgstr[0] "‮∀dd ɟoɹ Ԑɹɐzıʅ"
+msgstr[1] "‮∀dds ɟoɹ Ԑɹɐzıʅ"
+
+#: /media/js/edbrands.js:37
+msgid "App for Bulgaria"
+msgid_plural "Apps for Bulgaria"
+msgstr[0] "‮∀dd ɟoɹ Ԑnʅƃɐɹıɐ"
+msgstr[1] "‮∀dds ɟoɹ Ԑnʅƃɐɹıɐ"
+
+#: /media/js/edbrands.js:38
+msgid "App for Chile"
+msgid_plural "Apps for Chile"
+msgstr[0] "‮∀dd ɟoɹ Ↄɥıʅǝ"
+msgstr[1] "‮∀dds ɟoɹ Ↄɥıʅǝ"
+
+#: /media/js/edbrands.js:39
+msgid "App for China"
+msgid_plural "Apps for China"
+msgstr[0] "‮∀dd ɟoɹ Ↄɥıuɐ"
+msgstr[1] "‮∀dds ɟoɹ Ↄɥıuɐ"
+
+#: /media/js/edbrands.js:40
+msgid "App for Colombia"
+msgid_plural "Apps for Colombia"
+msgstr[0] "‮∀dd ɟoɹ Ↄoʅoɯqıɐ"
+msgstr[1] "‮∀dds ɟoɹ Ↄoʅoɯqıɐ"
+
+#: /media/js/edbrands.js:41
+msgid "App for Costa Rica"
+msgid_plural "Apps for Costa Rica"
+msgstr[0] "‮∀dd ɟoɹ Ↄosʇɐ ᴚıɔɐ"
+msgstr[1] "‮∀dds ɟoɹ Ↄosʇɐ ᴚıɔɐ"
+
+#: /media/js/edbrands.js:42
+msgid "App for Croatia"
+msgid_plural "Apps for Croatia"
+msgstr[0] "‮∀dd ɟoɹ Ↄɹoɐʇıɐ"
+msgstr[1] "‮∀dds ɟoɹ Ↄɹoɐʇıɐ"
+
+#: /media/js/edbrands.js:43
+msgid "App for Czech Republic"
+msgid_plural "Apps for Czech Republic"
+msgstr[0] "‮∀dd ɟoɹ Ↄzǝɔɥ ᴚǝdnqʅıɔ"
+msgstr[1] "‮∀dds ɟoɹ Ↄzǝɔɥ ᴚǝdnqʅıɔ"
+
+#: /media/js/edbrands.js:44
+msgid "App for Ecuador"
+msgid_plural "Apps for Ecuador"
+msgstr[0] "‮∀dd ɟoɹ Ǝɔnɐpoɹ"
+msgstr[1] "‮∀dds ɟoɹ Ǝɔnɐpoɹ"
+
+#: /media/js/edbrands.js:45
+msgid "App for El Salvador"
+msgid_plural "Apps for El Salvador"
+msgstr[0] "‮∀dd ɟoɹ Ǝʅ Sɐʅʌɐpoɹ"
+msgstr[1] "‮∀dds ɟoɹ Ǝʅ Sɐʅʌɐpoɹ"
+
+#: /media/js/edbrands.js:46
+msgid "App for France"
+msgid_plural "Apps for France"
+msgstr[0] "‮∀dd ɟoɹ Ⅎɹɐuɔǝ"
+msgstr[1] "‮∀dds ɟoɹ Ⅎɹɐuɔǝ"
+
+#: /media/js/edbrands.js:47
+msgid "App for Germany"
+msgid_plural "Apps for Germany"
+msgstr[0] "‮∀dd ɟoɹ ⅁ǝɹɯɐuʎ"
+msgstr[1] "‮∀dds ɟoɹ ⅁ǝɹɯɐuʎ"
+
+#: /media/js/edbrands.js:48
+msgid "App for Greece"
+msgid_plural "Apps for Greece"
+msgstr[0] "‮∀dd ɟoɹ ⅁ɹǝǝɔǝ"
+msgstr[1] "‮∀dds ɟoɹ ⅁ɹǝǝɔǝ"
+
+#: /media/js/edbrands.js:49
+msgid "App for Hungary"
+msgid_plural "Apps for Hungary"
+msgstr[0] "‮∀dd ɟoɹ Hnuƃɐɹʎ"
+msgstr[1] "‮∀dds ɟoɹ Hnuƃɐɹʎ"
+
+#: /media/js/edbrands.js:50
+msgid "App for India"
+msgid_plural "Apps for India"
+msgstr[0] "‮∀dd ɟoɹ Iupıɐ"
+msgstr[1] "‮∀dds ɟoɹ Iupıɐ"
+
+#: /media/js/edbrands.js:51
+msgid "App for Italy"
+msgid_plural "Apps for Italy"
+msgstr[0] "‮∀dd ɟoɹ Iʇɐʅʎ"
+msgstr[1] "‮∀dds ɟoɹ Iʇɐʅʎ"
+
+#: /media/js/edbrands.js:52
+msgid "App for Japan"
+msgid_plural "Apps for Japan"
+msgstr[0] "‮∀dd ɟoɹ ſɐdɐu"
+msgstr[1] "‮∀dds ɟoɹ ſɐdɐu"
+
+#: /media/js/edbrands.js:53
+msgid "App for Macedonia"
+msgid_plural "Apps for Macedonia"
+msgstr[0] "‮∀dd ɟoɹ Wɐɔǝpouıɐ"
+msgstr[1] "‮∀dds ɟoɹ Wɐɔǝpouıɐ"
+
+#: /media/js/edbrands.js:54
+msgid "App for Mexico"
+msgid_plural "Apps for Mexico"
+msgstr[0] "‮∀dd ɟoɹ Wǝxıɔo"
+msgstr[1] "‮∀dds ɟoɹ Wǝxıɔo"
+
+#: /media/js/edbrands.js:55
+msgid "App for Montenegro"
+msgid_plural "Apps for Montenegro"
+msgstr[0] "‮∀dd ɟoɹ Wouʇǝuǝƃɹo"
+msgstr[1] "‮∀dds ɟoɹ Wouʇǝuǝƃɹo"
+
+#: /media/js/edbrands.js:56
+msgid "App for Nicaragua"
+msgid_plural "Apps for Nicaragua"
+msgstr[0] "‮∀dd ɟoɹ Nıɔɐɹɐƃnɐ"
+msgstr[1] "‮∀dds ɟoɹ Nıɔɐɹɐƃnɐ"
+
+#: /media/js/edbrands.js:57
+msgid "App for Panama"
+msgid_plural "Apps for Panama"
+msgstr[0] "‮∀dd ɟoɹ Ԁɐuɐɯɐ"
+msgstr[1] "‮∀dds ɟoɹ Ԁɐuɐɯɐ"
+
+#: /media/js/edbrands.js:58
+msgid "App for Peru"
+msgid_plural "Apps for Peru"
+msgstr[0] "‮∀dd ɟoɹ Ԁǝɹn"
+msgstr[1] "‮∀dds ɟoɹ Ԁǝɹn"
+
+#: /media/js/edbrands.js:59
+msgid "App for Poland"
+msgid_plural "Apps for Poland"
+msgstr[0] "‮∀dd ɟoɹ Ԁoʅɐup"
+msgstr[1] "‮∀dds ɟoɹ Ԁoʅɐup"
+
+#: /media/js/edbrands.js:60
+msgid "App for Russia"
+msgid_plural "Apps for Russia"
+msgstr[0] "‮∀dd ɟoɹ ᴚnssıɐ"
+msgstr[1] "‮∀dds ɟoɹ ᴚnssıɐ"
+
+#: /media/js/edbrands.js:61
+msgid "App for Serbia"
+msgid_plural "Apps for Serbia"
+msgstr[0] "‮∀dd ɟoɹ Sǝɹqıɐ"
+msgstr[1] "‮∀dds ɟoɹ Sǝɹqıɐ"
+
+#: /media/js/edbrands.js:62
+msgid "App for South Africa"
+msgid_plural "Apps for South Africa"
+msgstr[0] "‮∀dd ɟoɹ Sonʇɥ ∀ɟɹıɔɐ"
+msgstr[1] "‮∀dds ɟoɹ Sonʇɥ ∀ɟɹıɔɐ"
+
+#: /media/js/edbrands.js:63
+msgid "App for Spain"
+msgid_plural "Apps for Spain"
+msgstr[0] "‮∀dd ɟoɹ Sdɐıu"
+msgstr[1] "‮∀dds ɟoɹ Sdɐıu"
+
+#: /media/js/edbrands.js:64
+msgid "App for Uruguay"
+msgid_plural "Apps for Uruguay"
+msgstr[0] "‮∀dd ɟoɹ ∩ɹnƃnɐʎ"
+msgstr[1] "‮∀dds ɟoɹ ∩ɹnƃnɐʎ"
+
+#: /media/js/edbrands.js:65
+msgid "App for Venezuela"
+msgid_plural "Apps for Venezuela"
+msgstr[0] "‮∀dd ɟoɹ Ʌǝuǝznǝʅɐ"
+msgstr[1] "‮∀dds ɟoɹ Ʌǝuǝznǝʅɐ"
+
+#: /media/js/edbrands.js:66
+msgid "Arts & Entertainment App"
+msgid_plural "Arts & Entertainment Apps"
+msgstr[0] "‮∀ɹʇs ⅋ Ǝuʇǝɹʇɐıuɯǝuʇ ∀dd"
+msgstr[1] "‮∀ɹʇs ⅋ Ǝuʇǝɹʇɐıuɯǝuʇ ∀dds"
+
+#: /media/js/edbrands.js:67
+msgid "Featured Book App"
+msgid_plural "Featured Book Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp Ԑooʞ ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp Ԑooʞ ∀dds"
+
+#: /media/js/edbrands.js:68
+msgid "Featured Creativity App"
+msgid_plural "Featured Creativity Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp Ↄɹǝɐʇıʌıʇʎ ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp Ↄɹǝɐʇıʌıʇʎ ∀dds"
+
+#: /media/js/edbrands.js:69
+msgid "Featured Education App"
+msgid_plural "Featured Education Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp Ǝpnɔɐʇıou ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp Ǝpnɔɐʇıou ∀dds"
+
+#: /media/js/edbrands.js:70
+msgid "Featured Game"
+msgid_plural "Featured Games"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp ⅁ɐɯǝ"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp ⅁ɐɯǝs"
+
+#: /media/js/edbrands.js:71
+msgid "Groundbreaking App"
+msgid_plural "Groundbreaking Apps"
+msgstr[0] "‮⅁ɹonupqɹǝɐʞıuƃ ∀dd"
+msgstr[1] "‮⅁ɹonupqɹǝɐʞıuƃ ∀dds"
+
+#: /media/js/edbrands.js:72
+msgid "Health & Fitness App"
+msgid_plural "Health & Fitness Apps"
+msgstr[0] "‮Hǝɐʅʇɥ ⅋ Ⅎıʇuǝss ∀dd"
+msgstr[1] "‮Hǝɐʅʇɥ ⅋ Ⅎıʇuǝss ∀dds"
+
+#: /media/js/edbrands.js:73
+msgid "Hidden Gem"
+msgid_plural "Hidden Gems"
+msgstr[0] "‮Hıppǝu ⅁ǝɯ"
+msgstr[1] "‮Hıppǝu ⅁ǝɯs"
+
+#: /media/js/edbrands.js:74
+msgid "Featured Lifestyle App"
+msgid_plural "Featured Lifestyle Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp ⅂ıɟǝsʇʎʅǝ ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp ⅂ıɟǝsʇʎʅǝ ∀dds"
+
+#: /media/js/edbrands.js:75
+msgid "Local Favorite App"
+msgid_plural "Local Favorite Apps"
+msgstr[0] "‮⅂oɔɐʅ Ⅎɐʌoɹıʇǝ ∀dd"
+msgstr[1] "‮⅂oɔɐʅ Ⅎɐʌoɹıʇǝ ∀dds"
+
+#: /media/js/edbrands.js:76
+msgid "Maps & Navigation App"
+msgid_plural "Maps & Navigation Apps"
+msgstr[0] "‮Wɐds ⅋ Nɐʌıƃɐʇıou ∀dd"
+msgstr[1] "‮Wɐds ⅋ Nɐʌıƃɐʇıou ∀dds"
+
+#: /media/js/edbrands.js:77
+msgid "Featured Music App"
+msgid_plural "Featured Music Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp Wnsıɔ ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp Wnsıɔ ∀dds"
+
+#: /media/js/edbrands.js:78
+msgid "Mystery App!"
+msgid_plural "Mystery Apps!"
+msgstr[0] "‮Wʎsʇǝɹʎ ∀dd¡"
+msgstr[1] "‮Wʎsʇǝɹʎ ∀dds¡"
+
+#: /media/js/edbrands.js:79
+msgid "News & Weather App"
+msgid_plural "News & Weather Apps"
+msgstr[0] "‮Nǝʍs ⅋ Ｍǝɐʇɥǝɹ ∀dd"
+msgstr[1] "‮Nǝʍs ⅋ Ｍǝɐʇɥǝɹ ∀dds"
+
+#: /media/js/edbrands.js:80
+msgid "Photo & Video App"
+msgid_plural "Photo & Video Apps"
+msgstr[0] "‮Ԁɥoʇo ⅋ Ʌıpǝo ∀dd"
+msgstr[1] "‮Ԁɥoʇo ⅋ Ʌıpǝo ∀dds"
+
+#: /media/js/edbrands.js:81
+msgid "Featured Shopping App"
+msgid_plural "Featured Shopping Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp Sɥoddıuƃ ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp Sɥoddıuƃ ∀dds"
+
+#: /media/js/edbrands.js:82
+msgid "Featured Social App"
+msgid_plural "Featured Social Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp Soɔıɐʅ ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp Soɔıɐʅ ∀dds"
+
+#: /media/js/edbrands.js:83
+msgid "Featured Sports App"
+msgid_plural "Featured Sports Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp Sdoɹʇs ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp Sdoɹʇs ∀dds"
+
+#: /media/js/edbrands.js:84
+msgid "Tool & Time Saver"
+msgid_plural "Tools & Time Savers"
+msgstr[0] "‮⊥ooʅ ⅋ ⊥ıɯǝ Sɐʌǝɹ"
+msgstr[1] "‮⊥ooʅs ⅋ ⊥ıɯǝ Sɐʌǝɹs"
+
+#: /media/js/edbrands.js:85
+msgid "Featured Travel App"
+msgid_plural "Featured Travel Apps"
+msgstr[0] "‮Ⅎǝɐʇnɹǝp ⊥ɹɐʌǝʅ ∀dd"
+msgstr[1] "‮Ⅎǝɐʇnɹǝp ⊥ɹɐʌǝʅ ∀dds"
+
+#: /media/js/edbrands.js:86
+msgid "Work & Business App"
+msgid_plural "Work & Business Apps"
+msgstr[0] "‮Ｍoɹʞ ⅋ Ԑnsıuǝss ∀dd"
+msgstr[1] "‮Ｍoɹʞ ⅋ Ԑnsıuǝss ∀dds"
+
+#: /media/js/feed.js:10
+msgid "Grid Layout"
+msgstr "‮⅁ɹıp ⅂ɐʎonʇ"
+
+#: /media/js/feed.js:11
+msgid "List Layout"
+msgstr "‮⅂ısʇ ⅂ɐʎonʇ"
+
+#: /media/js/feed.js:33
+msgid "Icon"
+msgstr "‮Iɔou"
+
+#: /media/js/feed.js:34
+msgid "Background Image"
+msgstr "‮Ԑɐɔʞƃɹonup Iɯɐƃǝ"
+
+#: /media/js/feed.js:36
+msgid "Quote"
+msgstr "‮Ònoʇǝ"
+
+#: /media/js/feed.js:37
+msgid "Screenshot"
+msgstr "‮Sɔɹǝǝusɥoʇ"
+
+#: /media/js/feed.js:45
+msgid "Promo Collection"
+msgstr "‮Ԁɹoɯo Ↄoʅʅǝɔʇıou"
+
+#: /media/js/feed.js:46
+msgid "Listing Collection"
+msgstr "‮⅂ısʇıuƃ Ↄoʅʅǝɔʇıou"
+
+#: /media/js/helpers_local.js:85
+msgid "Works offline"
+msgstr "‮Ｍoɹʞs oɟɟʅıuǝ"
+
+#: /media/js/installer_direct.js:140
+msgid "Unable to install packaged apps"
+msgstr "‮∩uɐqʅǝ ʇo ıusʇɐʅʅ dɐɔʞɐƃǝp ɐdds"
+
+#: /media/js/installer_direct.js:180
+#: /media/js/installer_iframe.js:111
+msgid "App install error: {error}"
+msgstr "‮∀dd ıusʇɐʅʅ ǝɹɹoɹ: {ǝɹɹoɹ}"
+
+#: /media/js/main.js:182
+msgid "The next time you start the Firefox Marketplace app, you’ll see the updated version!"
+msgstr ""
+"‮⊥ɥǝ uǝxʇ ʇıɯǝ ʎon sʇɐɹʇ ʇɥǝ Ⅎıɹǝɟox Wɐɹʞǝʇdʅɐɔǝ ɐdd´ ʎon’‮ʅʅ sǝǝ ʇɥǝ "
+"ndpɐʇǝp ʌǝɹsıou¡"
+
+#: /media/js/newsletter.js:64
+msgid "There was an error submitting your newsletter sign up request"
+msgstr "‮⊥ɥǝɹǝ ʍɐs ɐu ǝɹɹoɹ snqɯıʇʇıuƃ ʎonɹ uǝʍsʅǝʇʇǝɹ sıƃu nd ɹǝbnǝsʇ"
+
+#. This error is raised when we are unable to fetch a JWT from the payments API.
+#: /media/js/payments.js:135
+msgid "Error while communicating with server. Try again later."
+msgstr "‮Ǝɹɹoɹ ʍɥıʅǝ ɔoɯɯnuıɔɐʇıuƃ ʍıʇɥ sǝɹʌǝɹ˙ ⊥ɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#: /media/js/payments.js:138
+msgid "Payment failed. Try again later."
+msgstr "‮Ԁɐʎɯǝuʇ ɟɐıʅǝp˙ ⊥ɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#. {n} is the number of stars
+#: /media/js/ratingwidget.js:44
+msgid "{n} star"
+msgid_plural "{n} stars"
+msgstr[0] "‮{u} sʇɐɹ"
+msgstr[1] "‮{u} sʇɐɹs"
+
+#. The report is an abuse report for reviews.
+#: /media/js/reviews.js:34
+msgid "Flagging review..."
+msgstr "‮Ⅎʅɐƃƃıuƃ ɹǝʌıǝʍ˙˙˙"
+
+#: /media/js/reviews.js:38
+msgid "This review has been successfully flagged. Thanks!"
+msgstr "‮⊥ɥıs ɹǝʌıǝʍ ɥɐs qǝǝu snɔɔǝssɟnʅʅʎ ɟʅɐƃƃǝp˙ ⊥ɥɐuʞs¡"
+
+#: /media/js/reviews.js:41
+msgid "Sorry, there was an issue flagging the review. Please try again later."
+msgstr "‮Soɹɹʎ´ ʇɥǝɹǝ ʍɐs ɐu ıssnǝ ɟʅɐƃƃıuƃ ʇɥǝ ɹǝʌıǝʍ˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#: /media/js/reviews.js:49
+msgid "This review has been successfully deleted"
+msgstr "‮⊥ɥıs ɹǝʌıǝʍ ɥɐs qǝǝu snɔɔǝssɟnʅʅʎ pǝʅǝʇǝp"
+
+#: /media/js/reviews.js:80
+msgid "Write a Review"
+msgstr "‮Ｍɹıʇǝ ɐ ᴚǝʌıǝʍ"
+
+#: /media/js/reviews.js:82
+msgid "Sorry, there was a problem deleting the review"
+msgstr "‮Soɹɹʎ´ ʇɥǝɹǝ ʍɐs ɐ dɹoqʅǝɯ pǝʅǝʇıuƃ ʇɥǝ ɹǝʌıǝʍ"
+
+#: /media/js/reviews.js:145
+#: /media/js/views/app.js:25
+#: /media/js/views/app.js:32
+#: /media/js/views/app.js:33
+#: /media/js/views/app.js:38
+#: /media/js/views/app.js:39
+#: /media/js/views/feed/feed_app.js:9
+#: /media/js/views/feed/feed_brand.js:9
+#: /media/js/views/feed/feed_collection.js:8
+#: /media/js/views/feed/feed_shelf.js:9
+msgid "Loading..."
+msgstr "‮⅂oɐpıuƃ˙˙˙"
+
+#: /media/js/reviews.js:249
+msgid "Your review was successfully posted. Thanks!"
+msgstr "‮⅄onɹ ɹǝʌıǝʍ ʍɐs snɔɔǝssɟnʅʅʎ dosʇǝp˙ ⊥ɥɐuʞs¡"
+
+#: /media/js/reviews.js:255
+msgid "Sorry, there was an error posting your review. Please try again later."
+msgstr "‮Soɹɹʎ´ ʇɥǝɹǝ ʍɐs ɐu ǝɹɹoɹ dosʇıuƃ ʎonɹ ɹǝʌıǝʍ˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#: /media/js/settings.js:99
+msgid "English"
+msgstr "‮Ǝuƃʅısɥ"
+
+#: /media/js/settings.js:100
+msgid "French"
+msgstr "‮Ⅎɹǝuɔɥ"
+
+#: /media/js/settings.js:101
+msgid "German"
+msgstr "‮⅁ǝɹɯɐu"
+
+#: /media/js/settings.js:102
+msgid "Hungarian"
+msgstr "‮Hnuƃɐɹıɐu"
+
+#: /media/js/settings.js:103
+msgid "Indonesian"
+msgstr "‮Iupouǝsıɐu"
+
+#: /media/js/settings.js:104
+msgid "Polish"
+msgstr "‮Ԁoʅısɥ"
+
+#: /media/js/settings.js:105
+msgid "Portuguese"
+msgstr "‮Ԁoɹʇnƃnǝsǝ"
+
+#: /media/js/settings.js:106
+msgid "Russian"
+msgstr "‮ᴚnssıɐu"
+
+#: /media/js/settings.js:107
+msgid "Spanish"
+msgstr "‮Sdɐuısɥ"
+
+#: /media/js/settings.js:133
+msgid "Sorry, you are currently offline. Please try again later."
+msgstr "‮Soɹɹʎ´ ʎon ɐɹǝ ɔnɹɹǝuʇʅʎ oɟɟʅıuǝ˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#: /media/js/views/app.js:26
+#: /media/js/views/feed/feed_app.js:10
+msgid "App Details"
+msgstr "‮∀dd ᗡǝʇɐıʅs"
+
+#: /media/js/views/feedback.js:23
+msgid "Feedback submitted. Thanks!"
+msgstr "‮Ⅎǝǝpqɐɔʞ snqɯıʇʇǝp˙ ⊥ɥɐuʞs¡"
+
+#: /media/js/views/feedback.js:27
+msgid "There was a problem submitting your feedback. Try again soon."
+msgstr "‮⊥ɥǝɹǝ ʍɐs ɐ dɹoqʅǝɯ snqɯıʇʇıuƃ ʎonɹ ɟǝǝpqɐɔʞ˙ ⊥ɹʎ ɐƃɐıu soou˙"
+
+#: /media/js/views/homepage.js:61
+msgid "Games & Entertainment Apps—Desktop Essentials"
+msgstr "‮⅁ɐɯǝs ⅋ Ǝuʇǝɹʇɐıuɯǝuʇ ∀dds—‮ᗡǝsʞʇod Ǝssǝuʇıɐʅs"
+
+#: /media/js/views/homepage.js:66
+msgid "Discover, share, and enjoy music with SoundCloud."
+msgstr "‮ᗡısɔoʌǝɹ´ sɥɐɹǝ´ ɐup ǝuɾoʎ ɯnsıɔ ʍıʇɥ SonupↃʅonp˙"
+
+#: /media/js/views/homepage.js:71
+msgid "Play Hex Race—a thrill ride from the future!"
+msgstr "‮Ԁʅɐʎ Hǝx ᴚɐɔǝ—‮ɐ ʇɥɹıʅʅ ɹıpǝ ɟɹoɯ ʇɥǝ ɟnʇnɹǝ¡"
+
+#: /media/js/views/homepage.js:76
+msgid "Productivity Apps—Desktop Essentials"
+msgstr "‮Ԁɹopnɔʇıʌıʇʎ ∀dds—‮ᗡǝsʞʇod Ǝssǝuʇıɐʅs"
+
+#: /media/js/views/homepage.js:81
+msgid "Store and share any type of file with Box."
+msgstr "‮Sʇoɹǝ ɐup sɥɐɹǝ ɐuʎ ʇʎdǝ oɟ ɟıʅǝ ʍıʇɥ Ԑox˙"
+
+#: /media/js/views/search.js:164
+msgid "Search Results"
+msgstr "‮Sǝɐɹɔɥ ᴚǝsnʅʇs"
+
+#: /media/js/views/settings.js:40
+msgid "Your settings have been successfully saved"
+msgstr "‮⅄onɹ sǝʇʇıuƃs ɥɐʌǝ qǝǝu snɔɔǝssɟnʅʅʎ sɐʌǝp"
+
+#: /media/js/views/settings.js:46
+msgid "Settings could not be saved"
+msgstr "‮Sǝʇʇıuƃs ɔonʅp uoʇ qǝ sɐʌǝp"
+
+#: /media/js/views/app/abuse.js:18
+msgid "Abuse report submitted. Thanks!"
+msgstr "‮∀qnsǝ ɹǝdoɹʇ snqɯıʇʇǝp˙ ⊥ɥɐuʞs¡"
+
+#: /media/js/views/app/abuse.js:24
+msgid "There was an issue submitting your abuse report. Please try again later."
+msgstr ""
+"‮⊥ɥǝɹǝ ʍɐs ɐu ıssnǝ snqɯıʇʇıuƃ ʎonɹ ɐqnsǝ ɹǝdoɹʇ˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ˙"
+
+#: /media/js/views/app/receipt.js:13
+msgid "Please sign in to view the receipt"
+msgstr "‮Ԁʅǝɐsǝ sıƃu ıu ʇo ʌıǝʍ ʇɥǝ ɹǝɔǝıdʇ"
+
+#: /media/js/views/app/receipt.js:21
+msgid "Receipt"
+msgstr "‮ᴚǝɔǝıdʇ"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr "‮Hǝʅʅo Ｍoɹʅp¡"
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr "‮Noʇ Ⅎonup"
+
+#: /media/js/views/feed/feed_brand.js:10
+msgid "Editorial Brand Details"
+msgstr "‮Ǝpıʇoɹıɐʅ Ԑɹɐup ᗡǝʇɐıʅs"
+
+#: /media/js/views/feed/feed_collection.js:9
+msgid "Collection Details"
+msgstr "‮Ↄoʅʅǝɔʇıou ᗡǝʇɐıʅs"
+
+#: /media/js/views/feed/feed_shelf.js:10
+msgid "Operator Shelf Details"
+msgstr "‮Odǝɹɐʇoɹ Sɥǝʅɟ ᗡǝʇɐıʅs"
+
+#: /media/js/views/app/ratings/edit.js:19
+msgid "Your review was successfully edited"
+msgstr "‮⅄onɹ ɹǝʌıǝʍ ʍɐs snɔɔǝssɟnʅʅʎ ǝpıʇǝp"
+
+#: /media/js/views/app/ratings/edit.js:36
+msgid "Sorry, there was an issue editing your review. Please try again later"
+msgstr "‮Soɹɹʎ´ ʇɥǝɹǝ ʍɐs ɐu ıssnǝ ǝpıʇıuƃ ʎonɹ ɹǝʌıǝʍ˙ Ԁʅǝɐsǝ ʇɹʎ ɐƃɐıu ʅɐʇǝɹ"

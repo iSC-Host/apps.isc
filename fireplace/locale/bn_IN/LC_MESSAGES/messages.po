@@ -1,0 +1,1411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-11T17:58:58.145Z\n"
+"PO-Revision-Date: 2014-11-20 14:46+0000\n"
+"Last-Translator: Ayan <ayay700@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1416494791.0\n"
+
+#: /templates/app_list.html:7 /templates/category.html:17 /templates/search.html:26 /templates/purchases.html:7
+msgid "Expand"
+msgstr "বিস্তৃত করা"
+
+#: /templates/app_list.html:32
+msgid "No apps found"
+msgstr "কোনো অ্যাপ পাওয়া যায় নি"
+
+#: /templates/app_list.html:37
+msgid "No apps found."
+msgstr "কোনো অ্যাপ পাওয়া যায়নি।"
+
+#: /templates/app_list.html:39 /templates/category.html:49 /templates/purchases.html:39
+msgid "An internal server error occurred. Please try again later."
+msgstr "একটি অন্তর্বর্তী সার্ভারের ত্রুটি হয়েছে। অনুগ্রহ করে পরে চেষ্টা করুন।"
+
+#: /templates/category.html:42
+msgid "No apps in this category"
+msgstr "এই বৈশিষ্ট্যতে কোনো অ্যাপ নেই"
+
+#: /templates/category.html:47
+msgid "The category you requested does not exist."
+msgstr "আপনি যে বৈশিষ্ট্যটি অনুরোধ করেছেন সেটির অস্থিত্ব নেই।"
+
+#: /templates/compatibility_filtering.html:3
+msgid "Show"
+msgstr "দেখান হোক"
+
+#: /templates/compatibility_filtering.html:9
+msgid "All apps"
+msgstr "সব অ্যাপ"
+
+#: /templates/compatibility_filtering.html:12
+msgid "Apps for My Device"
+msgstr "আমার ডিভাইসের জন্য অ্যাপগুলি"
+
+#: /templates/compatibility_filtering.html:15
+msgid "Desktop Apps"
+msgstr "ডেস্কটপ অ্যাপ"
+
+#: /templates/compatibility_filtering.html:17
+msgid "Firefox OS Apps"
+msgstr "Firefox OS অ্যাপ্লিকেশনসমূহ"
+
+#: /templates/compatibility_filtering.html:19
+msgid "Android Mobile Apps"
+msgstr "Android Mobile অ্যাপ্লিকেশনসমূহ"
+
+#: /templates/compatibility_filtering.html:21
+msgid "Android Tablet Apps"
+msgstr "Android ট্যাবলেট অ্যাপ্লিকেশনসমূহ"
+
+#: /templates/confirmation.html:0
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+#: /templates/confirmation.html:3
+msgid "No"
+msgstr "না"
+
+#: /templates/confirmation.html:4
+msgid "Yes"
+msgstr "হ্যাঁ"
+
+#: /templates/credits.html:3 /media/js/views/credits.js:10
+msgid "Credits"
+msgstr "ক্রেডিট"
+
+#: /templates/desktop-promo.html:1
+msgid "Previous"
+msgstr ""
+
+#: /templates/desktop-promo.html:10
+msgid "Next"
+msgstr "তারপরে"
+
+#: /templates/feed.html:7
+msgid "More to Explore"
+msgstr ""
+
+#: /templates/footer.html:6 /templates/nav.html:31 /templates/_includes/settings_hover_desktop.html:16 /media/js/views/feedback.js:56
+msgid "Feedback"
+msgstr "ফিডব্যাক"
+
+#: /templates/footer.html:9 /templates/footer.html:13 /templates/footer.html:17
+msgid "Support"
+msgstr "সাপোর্ট"
+
+#: /templates/footer.html:20
+msgid "Develop Apps"
+msgstr "অ্যাপ ডেভেলপ করুন"
+
+#: /templates/footer.html:22 /templates/_includes/settings_hover_desktop.html:14
+msgid "My Submissions"
+msgstr "আমার জমা"
+
+#: /templates/footer.html:25 /templates/settings.html:72
+msgid "Reviewer Tools"
+msgstr "রিভিউয়ার টুলসমূহ"
+
+#: /templates/footer.html:28
+msgid "Lookup Tool"
+msgstr "লুক-আপ টুল"
+
+#: /templates/footer.html:34
+msgid ""
+"Except where otherwise <a href=\"{legal_url}\" target=\"_blank\">noted</a>, content on this site is licensed under the <a href=\"{cc_url}\" target=\"_blank\">Creative Commons Attribution Share-"
+"Alike License v3.0</a> or any later version."
+msgstr ""
+"যেখানে অন্যথায় ছাড়া<a href=\"{legal_url}\" target=\"_blank\">নোট করা হয়েছে </a>, এই সাইটের কন্টেন্ট <a href=\"{cc_url}\" target=\"_blank\">ক্রিয়েটিভ কমন্স অ্যাট্রিবিউশন শেয়ার-আলাইক লাইসেন্স v3.0</a> অথবা "
+"কোনো পরবর্তী সংস্করণের অধীনে অনুমতিপ্রাপ্ত।"
+
+#: /templates/footer.html:39 /templates/privacy.html:2 /templates/settings.html:68 /templates/app/index.html:115 /templates/app/privacy.html:2 /media/js/views/privacy.js:10
+#: /media/js/views/app/privacy.js:7
+msgid "Privacy Policy"
+msgstr "গোপনীয়তা নীতি"
+
+#: /templates/footer.html:40 /templates/settings.html:69 /templates/terms.html:2 /media/js/views/terms.js:10
+msgid "Terms of Use"
+msgstr "ব্যবহারের শর্তাবলী"
+
+#: /templates/footer.html:42
+msgid "Report Trademark Abuse"
+msgstr "ট্রেডমার্ক অপব্যবহার সম্বন্ধে রিপোর্ট"
+
+#: /templates/feedback.html:5
+msgid "We want to hear from you!"
+msgstr ""
+
+#: /templates/feedback.html:6
+msgid "Give us your feedback. Let us know whether we are awesome or buggy."
+msgstr ""
+
+#: /templates/feedback.html:7 /templates/app/abuse.html:7
+msgid "Let us know..."
+msgstr ""
+
+#: /templates/feedback.html:11 /templates/newsletter.html:36 /templates/app/abuse.html:12 /templates/ratings/add.html:30 /templates/ratings/flag.html:17
+msgid "Cancel"
+msgstr "বাতির করুন"
+
+#: /templates/feedback.html:12
+msgid "Submit Feedback"
+msgstr ""
+
+#: /templates/feedback.html:28 /templates/feedback.html:31
+msgid "Get Help"
+msgstr "সাহায্য পান"
+
+#: /templates/header.html:1 /templates/header.html:2
+msgid "Back"
+msgstr "ফিরে যান"
+
+#: /templates/header.html:13
+msgid "Search"
+msgstr "খুঁজুন"
+
+#: /templates/header.html:18
+msgid "Search the Marketplace"
+msgstr ""
+
+#: /templates/header.html:20
+msgid "Clear"
+msgstr "পরিষ্কার করুন"
+
+#: /templates/header.html:26 /templates/purchases.html:47 /templates/settings.html:41
+msgid "Sign In"
+msgstr "সাইন ইন"
+
+#: /templates/header.html:27 /templates/purchases.html:46 /templates/settings.html:40
+msgid "Register"
+msgstr "রেজিস্টার করুন"
+
+#: /templates/marketplace-update.html:2
+msgid "An update to Marketplace is available."
+msgstr ""
+
+#: /templates/marketplace-update.html:4 /templates/incompatible.html:2
+msgid "Download"
+msgstr "ডাউনলোড"
+
+#: /templates/incompatible.html:1
+msgid "You must use Firefox to install Firefox apps."
+msgstr "Firefox অ্যাপ ইন্সটল করবার জন্য আপাকে অতি অবশ্যই Firefox ব্যবহার করতে হবে।"
+
+#: /templates/nav.html:7 /templates/_includes/settings_hover_desktop.html:2
+msgid "Settings"
+msgstr "সেটিংসসমূহ"
+
+#: /templates/nav.html:14
+msgid "Home"
+msgstr "হোম"
+
+#: /templates/nav.html:15 /templates/_includes/app_list_filters.html:10 /media/js/views/new.js:9
+msgid "New"
+msgstr "নতুন"
+
+#: /templates/nav.html:16 /templates/_includes/app_list_filters.html:5 /media/js/views/popular.js:9
+msgid "Popular"
+msgstr "জনপ্রিয়"
+
+#: /templates/nav.html:17 /media/js/views/recommended.js:19
+msgid "Recommended"
+msgstr "প্রস্তাবিত"
+
+#: /templates/nav.html:20 /templates/nav.html:21 /templates/app/index.html:217 /media/js/views/categories.js:9
+msgid "Categories"
+msgstr "বিভাগ"
+
+#: /templates/nav.html:29
+msgid "My Account"
+msgstr "আমার অ্যাকাউন্ট"
+
+#: /templates/nav.html:30 /templates/purchases.html:6 /templates/purchases.html:31 /templates/_includes/settings_hover_desktop.html:12 /media/js/views/purchases.js:10
+msgid "My Apps"
+msgstr "আমার অ্যাপসমূহ"
+
+#: /templates/nav.html:36
+msgid "Back to Marketplace"
+msgstr "Marketplace-এ ফিরে যান"
+
+#: /templates/search.html:19
+msgid "<b>\"{search_query}\"</b> returned {n} result"
+msgid_plural "<b>\"{search_query}\"</b> returned {n} results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /templates/search.html:25
+msgid "<b>{n}</b> Result"
+msgid_plural "<b>{n}</b> Results"
+msgstr[0] "<b>{n}</b> ফলাফল"
+msgstr[1] "<b>{n}</b> ফলাফলসমূহ"
+
+#: /templates/search.html:55
+msgid "No results found"
+msgstr "কোনো ফলাফল পাওয়া যায় নি"
+
+#: /templates/search.html:61
+msgid "No results found, try again later"
+msgstr "কোনো ফলাফল পাওয়া যায়নি, পরে আবার চেষ্টা করুন"
+
+#: /templates/purchases.html:45
+msgid "You must be signed in to view your apps."
+msgstr "আপনাকে অবশ্যই সাইন ইন করতে হবে আপনার অ্যাপসমূহ দেখতে হলে।"
+
+#: /templates/purchases.html:34
+msgid "You have no apps"
+msgstr "আপনার কোনো অ্যাপ নেই"
+
+#: /templates/purchases.html:38 /templates/errors/404.html:8 /templates/errors/fragment.html:1 /media/js/views/app.js:52
+msgid "Oh no!"
+msgstr "ওহ না!"
+
+#: /templates/newsletter.html:3
+msgid "Sign up for our newsletter"
+msgstr ""
+
+#: /templates/newsletter.html:5
+msgid "Get Firefox news! Sign up for our newsletter"
+msgstr ""
+
+#: /templates/newsletter.html:7
+msgid "Email"
+msgstr "ইমেইল"
+
+#: /templates/newsletter.html:8 /templates/newsletter.html:35
+msgid "Sign me up"
+msgstr ""
+
+#: /templates/newsletter.html:30
+msgid "I'm okay with Mozilla handling my info as explained in <a href=\"{privacy_policy_url}\" target=\"_blank\">this Privacy Policy</a>."
+msgstr ""
+
+#: /templates/newsletter.html:42
+msgid "Thanks for signing up!"
+msgstr ""
+
+#: /templates/newsletter.html:43
+msgid "You'll receive an email from mozilla@e.mozilla.org, please check your inbox for your first email from us. If you don’t see it, check your spam filter."
+msgstr ""
+
+#: /templates/settings.html:2 /media/js/views/settings.js:54
+msgid "Account Settings"
+msgstr "অ্যাকাউন্ট সেটিংস"
+
+#: /templates/settings.html:9
+msgid "General settings"
+msgstr ""
+
+#: /templates/settings.html:12
+msgid "Email Address"
+msgstr ""
+
+#: /templates/settings.html:17
+msgid "Display Name"
+msgstr "নাম দেখান"
+
+#: /templates/settings.html:24
+msgid "Recommendations"
+msgstr ""
+
+#: /templates/settings.html:28
+msgid "Yes, show me recommendations based on my installed apps. <a href=\"{url}\" target=\"_blank\">Learn more</a>"
+msgstr ""
+
+#: /templates/settings.html:33
+msgid "Region"
+msgstr "এলাকা"
+
+#: /templates/settings.html:39
+msgid "Save Changes"
+msgstr "পরিবর্তনগুলো সংরক্ষণ করুন"
+
+#: /templates/settings.html:42 /templates/_includes/settings_hover_desktop.html:17
+msgid "Sign Out"
+msgstr "সাইন আউট"
+
+#: /templates/settings.html:49
+msgid "Newsletter"
+msgstr ""
+
+#: /templates/settings.html:54
+msgid "Get Firefox News."
+msgstr ""
+
+#: /templates/settings.html:56
+msgid "Sign up for our newsletter."
+msgstr ""
+
+#: /templates/settings.html:66
+msgid "Get Involved"
+msgstr ""
+
+#: /templates/app/abuse.html:5
+msgid "Need to report something?"
+msgstr ""
+
+#: /templates/app/abuse.html:6
+msgid "Let us know if you find any issues regarding abuse about this app."
+msgstr ""
+
+#: /templates/app/abuse.html:13
+msgid "Submit Report"
+msgstr ""
+
+#: /templates/app/abuse.html:21 /templates/app/index.html:250 /media/js/views/app/abuse.js:51
+msgid "Report Abuse"
+msgstr "অপব্যবহার হলে রিপোর্ট করুন"
+
+#. delimiter to separate list of words (e.g., "eggs, ham, cheese").
+#: /templates/app/index.html:60 /media/js/feed.js:35
+msgid "Description"
+msgstr "বর্ণনা"
+
+#: /templates/app/index.html:66 /templates/app/index.html:79
+msgid "View All"
+msgstr "সব দেখুন"
+
+#: /templates/app/index.html:75
+msgid "Updates"
+msgstr "আপডেটসমূহ"
+
+#: /templates/app/index.html:86
+msgid "Version"
+msgstr "সংস্করণ"
+
+#: /templates/app/index.html:87
+msgid "Latest version: {version}"
+msgstr "সর্বশেষ সংস্করণ: {version}"
+
+#: /templates/app/index.html:96
+msgid "Email Support"
+msgstr ""
+
+#: /templates/app/index.html:103
+msgid "Support Site"
+msgstr "সাপোর্ট সাইট"
+
+#: /templates/app/index.html:109
+msgid "Homepage"
+msgstr "হোমপেজ"
+
+#: /templates/app/index.html:122
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
+
+#: /templates/app/index.html:129
+msgid "Edit Listing"
+msgstr "তালিকা সম্পাদনা করা"
+
+#: /templates/app/index.html:137
+msgid "Approve / Reject"
+msgstr "অনুমোদন / প্রত্যাখ্যান করুন"
+
+#: /templates/app/index.html:138
+msgid "Review History"
+msgstr "রিভিউ ইতিহাস"
+
+#: /templates/app/index.html:155 /templates/ratings/main.html:14 /media/js/views/app/ratings.js:10
+msgid "Reviews"
+msgstr "রিভিউ"
+
+#: /templates/app/index.html:166
+msgid "App not yet reviewed"
+msgstr "অ্যাপ এখনো পর্যালোচনা করা হয়নি"
+
+#: /templates/app/index.html:185
+msgid "Premium version available"
+msgstr "প্রিমিয়াম সংস্করণ উপলব্ধ"
+
+#: /templates/app/index.html:203
+msgid "More Information"
+msgstr ""
+
+#: /templates/app/index.html:206
+msgid "Developer"
+msgstr ""
+
+#: /templates/app/index.html:210
+msgid "Compatibility"
+msgstr ""
+
+#. delimiter to separate list of words (e.g., "eggs, ham, cheese").
+#: /templates/app/index.html:213 /templates/app/index.html:221
+msgid ","
+msgstr ""
+
+#: /templates/app/index.html:227
+msgid "File Size"
+msgstr ""
+
+#: /templates/app/index.html:232
+msgid "Most Recent Version"
+msgstr ""
+
+#: /templates/app/privacy.html:8
+msgid "Back to app"
+msgstr "অ্যাপে ফিরে যান"
+
+#: /templates/app/privacy.html:11
+msgid "Loading Privacy Policy..."
+msgstr "গোপনীয়তা নীতি লোড হচ্ছে..."
+
+#: /templates/app/receipt.html:2
+msgid "Thank you for purchasing"
+msgstr "কেনার জন্য আপনাকে ধন্যবাদ"
+
+#: /templates/_macros/app_tile.html:111 /templates/_macros/app_tile.html:114
+msgid "{app_name} screenshot"
+msgstr "{app_name} স্ক্রিনশট"
+
+#: /templates/_macros/app_tile.html:129
+msgid "Review"
+msgid_plural "Reviews"
+msgstr[0] "রিভিউ"
+msgstr[1] "রিভিউসমূহ"
+
+#: /templates/_macros/app_tile.html:133
+msgid "Not yet reviewed"
+msgstr "এখন রিভিউ করা হয়নি"
+
+#: /templates/_macros/feed_app_tile.html:16
+msgid "&mdash; {attribution}"
+msgstr "&mdash; {attribution}"
+
+#: /templates/_macros/feed_item.html:109 /templates/_macros/feed_item.html:191
+msgid "View all apps"
+msgstr "সব অ্যাপ দেখুন"
+
+#. This app is unavailable for purchase.
+#: /templates/_macros/market_button.html:8
+msgid "Unavailable"
+msgstr "অপ্রাপ্য"
+
+#: /templates/_macros/market_button.html:10
+msgid "Free"
+msgstr "মুক্ত"
+
+#: /templates/_macros/market_button.html:21 /media/js/apps_buttons.js:284
+msgid "Open"
+msgstr "উন্মুক্ত"
+
+#: /templates/_macros/market_button.html:23 /media/js/apps_buttons.js:108 /media/js/apps_buttons.js:311
+msgid "Install"
+msgstr "ইন্সটল"
+
+#: /templates/_macros/more_button.html:3
+msgid "Load more"
+msgstr ""
+
+#: /templates/_macros/review.html:12
+msgid "For previous version {version}"
+msgstr ""
+
+#: /templates/_macros/review.html:21
+msgid "Flagged for review"
+msgstr "রিভিউয়ের জন্য ফ্ল্যাগ করা হয়েছে"
+
+#: /templates/_macros/review.html:25 /templates/_macros/review.html:29
+msgid "Edit"
+msgstr "সম্পাদনা করুন"
+
+#: /templates/_macros/review.html:36
+msgid "Delete"
+msgstr "বাতিল করুন"
+
+#: /templates/_macros/review.html:41
+msgid "Report"
+msgstr "রিপোর্ট করুন"
+
+#: /templates/_macros/stars.html:5
+msgid "Rated {stars} out of {maxstars} stars"
+msgstr "রেট করা {stars} {maxstars}-র মধ্যে"
+
+#: /templates/_includes/back_to_app.html:5
+msgid "Back to {app}"
+msgstr ""
+
+#: /templates/_includes/app_list_filters.html:15
+msgid "Display as"
+msgstr ""
+
+#: /templates/_includes/app_list_filters.html:16
+msgid "Toggle App Previews"
+msgstr ""
+
+#. (es) Classificacao Indicativa.
+#: /templates/_includes/content_ratings.html:5
+msgid "Content Rating"
+msgstr "বিষয়বস্তু নির্ধারণ"
+
+#. (es) Classificacao Indicativa. Rating as in content rating.
+#: /templates/_includes/content_ratings.html:77
+msgid "Rating Details"
+msgstr ""
+
+#: /templates/_includes/post_install_message.html:2
+msgid "Installed!"
+msgstr "ইন্সটল হয়ে গেছে!"
+
+#: /templates/_includes/post_install_message.html:5
+msgid "Launch this app from your <b>Applications</b> directory."
+msgstr "আপনার <b>অ্যাপ্লিকেশন</b> ডিরেক্টরি থেকে এই অ্যাপটি চালু করুন।"
+
+#: /templates/_includes/post_install_message.html:8
+msgid "Launch this app from your <b>Windows desktop</b> or <b>Start &#9658; All Programs</b>."
+msgstr "আপনার <b>উন্ডোজ ডেস্কটপ</b> থেকে এই অ্যাপটি চালু করুন অথবা <b>শুরু করুন &#9658; সমস্ত প্রোগ্রাম</b>।"
+
+#: /templates/_includes/post_install_message.html:11
+msgid "Launch this app from your <b>dash</b>, <b>Application picker</b>, or <b>Applications menu</b>."
+msgstr "আপনার <b>ড্যাশ</b>, <b>অ্যাপ্লিকেশন পিকার</b>, অথবা <b>অ্যাপ্লিকেশন মেনু</b> থেকে এই অ্যাপটি চালু করুন।"
+
+#: /templates/_includes/os_x_banner.html:2
+msgid "Your Mac settings may only allow you to install apps from the Mac App Store."
+msgstr ""
+
+#: /templates/_includes/os_x_banner.html:5
+msgid "Learn how to change them."
+msgstr ""
+
+#: /templates/_includes/reviews_sidebar.html:9
+msgid "Edit your Review"
+msgstr ""
+
+#: /templates/_includes/reviews_sidebar.html:11
+msgid "Edit your review"
+msgstr ""
+
+#: /templates/_includes/reviews_sidebar.html:18
+msgid "Write a review"
+msgstr ""
+
+#: /templates/_includes/reviews_sidebar.html:18
+msgid "Sign in to review"
+msgstr ""
+
+#: /templates/_includes/reviews_sidebar.html:26
+msgid "Read all reviews"
+msgstr ""
+
+#: /templates/errors/404.html:9
+msgid "The page you were looking for was not found."
+msgstr "আপনি যে পেজটি খুঁজছেন সেটি পাওয়া যায়নি।"
+
+#: /templates/errors/date-error.html:2
+msgid "System Date Incorrect"
+msgstr "সিস্টেমের তারিখ ভুল"
+
+#: /templates/errors/date-error.html:3
+msgid "Sorry, your device clock appears to be set incorrectly."
+msgstr "দুঃখিত, আপনার ডিভাইসের ঘড়ি ভুল নির্ধারণ করা হয়েছে হতে পারে।"
+
+#: /templates/errors/date-error.html:4
+msgid "Please set today's date and time in your device settings to access the Marketplace."
+msgstr "Marketplace পরিচালনা করবার জন্য আপনার ডিভাইস সেটিংসে অনুগ্রহ করে আজকের তারিখ এবং সময় সেট করুন।"
+
+#: /templates/errors/date-error.html:5 /templates/errors/offline-error.html:4
+msgid "Try again"
+msgstr "আবার চেষ্টা করুন"
+
+#: /templates/errors/fragment.html:2
+msgid "An error occurred."
+msgstr "একটি ত্রুটি হয়েছে।"
+
+#: /templates/errors/offline-error.html:2
+msgid "Currently Offline"
+msgstr "বর্তমানে অফলাইন"
+
+#: /templates/errors/offline-error.html:3
+msgid "Sorry, you need to be online to access the Marketplace."
+msgstr "দুঃখিত, আপনাকে Marketplace পরিচালনা করবার জন্য অনলাইন হতে হবে।"
+
+#: /templates/errors/pagination.html:2
+msgid "Try Again"
+msgstr "আবার চেষ্টা করুন"
+
+#: /templates/_includes/reviews_summary.html:9
+msgid "1 Review"
+msgid_plural "{numReviews} Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /templates/ratings/add.html:8 /templates/ratings/edit.html:3 /media/js/views/app/ratings/edit.js:48
+msgid "Edit Review"
+msgstr "রিভিউ সম্পাদনা করুন"
+
+#: /templates/ratings/add.html:8 /templates/ratings/add.html:39 /media/js/views/app/ratings/add.js:22
+msgid "Leave a Review"
+msgstr ""
+
+#: /templates/ratings/add.html:11
+msgid "Rate:"
+msgstr "রেট:"
+
+#: /templates/ratings/add.html:22
+msgid "Tell us what you love about this app!"
+msgstr ""
+
+#: /templates/ratings/add.html:27
+msgid "Only users that are logged in may submit reviews."
+msgstr ""
+
+#: /templates/ratings/add.html:31
+msgid "Update Review"
+msgstr ""
+
+#: /templates/ratings/add.html:31
+msgid "Submit Review"
+msgstr ""
+
+#: /templates/ratings/flag.html:3 /templates/ratings/flag.html:26
+msgid "Flag Review"
+msgstr ""
+
+#: /templates/ratings/flag.html:4
+msgid "See an issue with this review? Select a reason below."
+msgstr ""
+
+#: /templates/ratings/flag.html:7
+msgid "Spam or otherwise non-review content"
+msgstr "স্প্যাম অথবা রিভিউ না করা কন্টেন্ট"
+
+#: /templates/ratings/flag.html:10
+msgid "Inappropriate language/dialog"
+msgstr "অনুপযুক্ত ভাষা/ডায়লগ"
+
+#: /templates/ratings/flag.html:13
+msgid "Misplaced bug report or support request"
+msgstr "ভুল বাগ রিপোর্ট বা সাপোর্টের অনুরোধ"
+
+#: /templates/ratings/main.html:38
+msgid "This app has no reviews."
+msgstr ""
+
+#: /templates/ratings/rating.html:4 /media/js/views/app/ratings/rating.js:13
+msgid "App Review"
+msgstr "অ্যাপ রিভিউ"
+
+#: /templates/_includes/settings_hover_desktop.html:10
+msgid "Edit Account Settings"
+msgstr "আপনার অ্যাকাউন্ট সেটিংস এডিট করুন"
+
+#: /media/js/apps.js:99
+msgid "Not available for your region"
+msgstr ""
+
+#: /media/js/apps.js:104
+msgid "Not available for your platform"
+msgstr ""
+
+#. "Open" as in "Open the app".
+#: /media/js/apps_buttons.js:63 /media/js/apps_buttons.js:132 /media/js/payments.js:131
+msgid "Payment cancelled."
+msgstr "পেমেন্ট বাতিল হয়েছে।"
+
+#: /media/js/apps_buttons.js:97
+msgid "Purchasing"
+msgstr "কেনা হচ্ছে"
+
+#: /media/js/apps_buttons.js:173 /media/js/installer_direct.js:178
+msgid "Sorry, we had trouble fetching this app's data. Please try again later."
+msgstr ""
+
+#. The app's installation has failed, but the problem is temporary.
+#: /media/js/apps_buttons.js:216
+msgid "Install failed. Please try again later."
+msgstr "ইন্সটল ব্যর্থ হয়েছে। অনুগ্রহ করে পরে আবার চেষ্টা করুন।"
+
+#: /media/js/categories.js:6
+msgid "Games"
+msgstr "গেমসমূহ"
+
+#: /media/js/categories.js:7
+msgid "Books"
+msgstr "বইসমূহ"
+
+#: /media/js/categories.js:8
+msgid "Business"
+msgstr "ব্যাবসা"
+
+#: /media/js/categories.js:9
+msgid "Education"
+msgstr "শিক্ষা"
+
+#: /media/js/categories.js:10
+msgid "Entertainment"
+msgstr "বিনোদন"
+
+#: /media/js/categories.js:11
+msgid "Health & Fitness"
+msgstr "স্বাস্থ্য এবং ফিটনেস"
+
+#: /media/js/categories.js:12
+msgid "Lifestyle"
+msgstr "লাইফস্টাইল"
+
+#: /media/js/categories.js:13
+msgid "Maps & Navigation"
+msgstr "মানচিত্র এবং ন্যাভিগেশন"
+
+#: /media/js/categories.js:14
+msgid "Music"
+msgstr "সঙ্গীত"
+
+#: /media/js/categories.js:15
+msgid "News & Weather"
+msgstr "খবর এবং আবহাওয়া"
+
+#: /media/js/categories.js:16
+msgid "Photo & Video"
+msgstr "ফোটো এবং ভিডিও"
+
+#: /media/js/categories.js:17
+msgid "Productivity"
+msgstr "উৎপাদনশীলতা"
+
+#: /media/js/categories.js:18
+msgid "Reference"
+msgstr "উল্লেখ"
+
+#: /media/js/categories.js:19
+msgid "Shopping"
+msgstr "কেনাকাটা"
+
+#: /media/js/categories.js:20
+msgid "Social"
+msgstr "সোশ্যাল"
+
+#: /media/js/categories.js:21
+msgid "Sports"
+msgstr "খেলাধূলো"
+
+#: /media/js/categories.js:22
+msgid "Travel"
+msgstr "ভ্রমণ"
+
+#: /media/js/categories.js:23
+msgid "Utilities"
+msgstr "উপযোগিতা"
+
+#: /media/js/compatibility_filtering.js:15
+msgid "Android Mobile"
+msgstr ""
+
+#: /media/js/compatibility_filtering.js:16
+msgid "Android Tablet"
+msgstr ""
+
+#: /media/js/compatibility_filtering.js:17
+msgid "Desktop"
+msgstr ""
+
+#: /media/js/compatibility_filtering.js:18
+msgid "Firefox OS"
+msgstr ""
+
+#. For ages {0} and higher. (de) `ab {0} Jahren`.
+#: /media/js/content-ratings.js:98
+msgid "For ages {0}+"
+msgstr "{0}+ বয়সের জন্য"
+
+#: /media/js/content-ratings.js:104
+msgid "Generic"
+msgstr "শ্রেণীগত"
+
+#: /media/js/content-ratings.js:111
+msgid "For all ages"
+msgstr "সব বয়সের জন্য"
+
+#: /media/js/content-ratings.js:120
+msgid "Rating Pending"
+msgstr "রেটিং অপেক্ষারত"
+
+#: /media/js/content-ratings.js:121
+msgid "Rating Refused"
+msgstr "রেটিং প্রত্যাখ্যাত"
+
+#: /media/js/content-ratings.js:124
+msgid "Everyone"
+msgstr "প্রত্যেকে"
+
+#: /media/js/content-ratings.js:125
+msgid "Everyone 10+"
+msgstr "প্রত্যেকে ১০+"
+
+#: /media/js/content-ratings.js:126
+msgid "Teen"
+msgstr "টিন"
+
+#: /media/js/content-ratings.js:127
+msgid "Mature 17+"
+msgstr "পরিপক্ব ১৭+"
+
+#: /media/js/content-ratings.js:128
+msgid "Adults Only 18+"
+msgstr "শুধুমাত্র প্রাপ্তবয়স্ক ১৮+"
+
+#: /media/js/edbrands.js:33
+msgid "App for Albania"
+msgid_plural "Apps for Albania"
+msgstr[0] "আলবানিয়ার জন্য অ্যাপ"
+msgstr[1] "আলবানিয়ার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:34
+msgid "App for Argentina"
+msgid_plural "Apps for Argentina"
+msgstr[0] "আর্জেন্টিনার জন্য অ্যাপ"
+msgstr[1] "আর্জেন্টিনার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:35
+msgid "App for Bangladesh"
+msgid_plural "Apps for Bangladesh"
+msgstr[0] "বাংলাদেশের জন্য অ্যাপ"
+msgstr[1] "বাংলাদেশের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:36
+msgid "App for Brazil"
+msgid_plural "Apps for Brazil"
+msgstr[0] "ব্রাজিলের জন্য অ্যাপ"
+msgstr[1] "ব্রাজিলের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:37
+msgid "App for Bulgaria"
+msgid_plural "Apps for Bulgaria"
+msgstr[0] "বুলগেরিয়ার জন্য অ্যাপ"
+msgstr[1] "বুলগেরিয়ার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:38
+msgid "App for Chile"
+msgid_plural "Apps for Chile"
+msgstr[0] "চিলির জন্য অ্যাপ"
+msgstr[1] "চিলির জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:39
+msgid "App for China"
+msgid_plural "Apps for China"
+msgstr[0] "চীনের জন্য অ্যাপ"
+msgstr[1] "চীনের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:40
+msgid "App for Colombia"
+msgid_plural "Apps for Colombia"
+msgstr[0] "কলম্বিয়ার জন্য অ্যাপ"
+msgstr[1] "কলম্বিয়ার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:41
+msgid "App for Costa Rica"
+msgid_plural "Apps for Costa Rica"
+msgstr[0] "কোস্টারিকার জন্য অ্যাপ"
+msgstr[1] "কোস্টারিকার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:42
+msgid "App for Croatia"
+msgid_plural "Apps for Croatia"
+msgstr[0] "ক্রোয়েশিয়ার জন্য অ্যাপ"
+msgstr[1] "ক্রোয়েশিয়ার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:43
+msgid "App for Czech Republic"
+msgid_plural "Apps for Czech Republic"
+msgstr[0] "চেক রিপাব্লিকের জন্য অ্যাপ"
+msgstr[1] "চেক রিপাব্লিকের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:44
+msgid "App for Ecuador"
+msgid_plural "Apps for Ecuador"
+msgstr[0] "ইকুয়েডরের জন্য অ্যাপ"
+msgstr[1] "ইকুয়েডরের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:45
+msgid "App for El Salvador"
+msgid_plural "Apps for El Salvador"
+msgstr[0] "এল স্যাল্ভাডোরের জন্য অ্যাপ"
+msgstr[1] "এল স্যাল্ভাডোরের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:46
+msgid "App for France"
+msgid_plural "Apps for France"
+msgstr[0] "ফ্রান্সের জন্য অ্যাপ"
+msgstr[1] "ফ্রান্সের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:47
+msgid "App for Germany"
+msgid_plural "Apps for Germany"
+msgstr[0] "জার্মানির জন্য অ্যাপ"
+msgstr[1] "জার্মানির জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:48
+msgid "App for Greece"
+msgid_plural "Apps for Greece"
+msgstr[0] "গ্রীসের জন্য অ্যাপ"
+msgstr[1] "গ্রীসের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:49
+msgid "App for Hungary"
+msgid_plural "Apps for Hungary"
+msgstr[0] "হাঙ্গেরির জন্য অ্যাপ"
+msgstr[1] "হাঙ্গেরির জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:50
+msgid "App for India"
+msgid_plural "Apps for India"
+msgstr[0] "ভারতের জন্য অ্যাপ"
+msgstr[1] "ভারতের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:51
+msgid "App for Italy"
+msgid_plural "Apps for Italy"
+msgstr[0] "ইতালির জন্য অ্যাপ"
+msgstr[1] "ইতালির জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:52
+msgid "App for Japan"
+msgid_plural "Apps for Japan"
+msgstr[0] "জাপানের জন্য অ্যাপ"
+msgstr[1] "জাপানের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:53
+msgid "App for Macedonia"
+msgid_plural "Apps for Macedonia"
+msgstr[0] "ম্যাসেডোনিয়ার জন্য অ্যাপ"
+msgstr[1] "ম্যাসেডোনিয়ার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:54
+msgid "App for Mexico"
+msgid_plural "Apps for Mexico"
+msgstr[0] "মেক্সিকোর জন্য অ্যাপ"
+msgstr[1] "মেক্সিকোর জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:55
+msgid "App for Montenegro"
+msgid_plural "Apps for Montenegro"
+msgstr[0] "মন্টেনেগ্রোর জন্য অ্যাপ"
+msgstr[1] "মন্টেনেগ্রোর জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:56
+msgid "App for Nicaragua"
+msgid_plural "Apps for Nicaragua"
+msgstr[0] "নিকারাগুয়ার জন্য অ্যাপ"
+msgstr[1] "নিকারাগুয়ার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:57
+msgid "App for Panama"
+msgid_plural "Apps for Panama"
+msgstr[0] "পানামার জন্য অ্যাপ"
+msgstr[1] "পানামার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:58
+msgid "App for Peru"
+msgid_plural "Apps for Peru"
+msgstr[0] "পেরুর জন্য অ্যাপ"
+msgstr[1] "পেরুর জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:59
+msgid "App for Poland"
+msgid_plural "Apps for Poland"
+msgstr[0] "পোল্যান্ডের জন্য অ্যাপ"
+msgstr[1] "পোল্যান্ডের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:60
+msgid "App for Russia"
+msgid_plural "Apps for Russia"
+msgstr[0] "রাশিয়ার জন্য অ্যাপ"
+msgstr[1] "রাশিয়ার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:61
+msgid "App for Serbia"
+msgid_plural "Apps for Serbia"
+msgstr[0] "সার্বিয়ার জন্য অ্যাপ"
+msgstr[1] "সার্বিয়ার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:62
+msgid "App for South Africa"
+msgid_plural "Apps for South Africa"
+msgstr[0] "দক্ষিণ আফ্রিকার জন্য অ্যাপ"
+msgstr[1] "দক্ষিণ আফ্রিকার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:63
+msgid "App for Spain"
+msgid_plural "Apps for Spain"
+msgstr[0] "স্পেনের জন্য অ্যাপ"
+msgstr[1] "স্পেনের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:64
+msgid "App for Uruguay"
+msgid_plural "Apps for Uruguay"
+msgstr[0] "উরুগুয়ের জন্য অ্যাপ"
+msgstr[1] "উরুগুয়ের জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:65
+msgid "App for Venezuela"
+msgid_plural "Apps for Venezuela"
+msgstr[0] "ভেনেজুয়েলার জন্য অ্যাপ"
+msgstr[1] "ভেনেজুয়েলার জন্য অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:66
+msgid "Arts & Entertainment App"
+msgid_plural "Arts & Entertainment Apps"
+msgstr[0] "আর্ট এবং বিনোদন অ্যাপ"
+msgstr[1] "আর্ট এবং বিনোদন অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:67
+msgid "Featured Book App"
+msgid_plural "Featured Book Apps"
+msgstr[0] "বিশেষ বইয়ের অ্যাপ"
+msgstr[1] "বিশেষ বইয়ের অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:68
+msgid "Featured Creativity App"
+msgid_plural "Featured Creativity Apps"
+msgstr[0] "বিশেষ সৃজনশীলতার অ্যাপ"
+msgstr[1] "বিশেষ সৃজনশীলতার অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:69
+msgid "Featured Education App"
+msgid_plural "Featured Education Apps"
+msgstr[0] "বিশেষ শিক্ষার অ্যাপ"
+msgstr[1] "বিশেষ শিক্ষার অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:70
+msgid "Featured Game"
+msgid_plural "Featured Games"
+msgstr[0] "বিশেষ গেম"
+msgstr[1] "বিশেষ গেমসমূহ"
+
+#: /media/js/edbrands.js:71
+msgid "Groundbreaking App"
+msgid_plural "Groundbreaking Apps"
+msgstr[0] "যুগান্তকারী অ্যাপ"
+msgstr[1] "যুগান্তকারী অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:72
+msgid "Health & Fitness App"
+msgid_plural "Health & Fitness Apps"
+msgstr[0] "স্বাস্থ্য এবং ফিটনেস অ্যাপ"
+msgstr[1] "স্বাস্থ্য এবং ফিটনেস অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:73
+msgid "Hidden Gem"
+msgid_plural "Hidden Gems"
+msgstr[0] "লুকোনো জেম"
+msgstr[1] "লুকোনো জেমসমূহ"
+
+#: /media/js/edbrands.js:74
+msgid "Featured Lifestyle App"
+msgid_plural "Featured Lifestyle Apps"
+msgstr[0] "বিশেষ লাইফস্টাইল অ্যাপ"
+msgstr[1] "বিশেষ লাইফস্টাইল অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:75
+msgid "Local Favorite App"
+msgid_plural "Local Favorite Apps"
+msgstr[0] "স্থানীয় পছন্দের অ্যাপ"
+msgstr[1] "স্থানীয় পছন্দের অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:76
+msgid "Maps & Navigation App"
+msgid_plural "Maps & Navigation Apps"
+msgstr[0] "মানচিত্র এবং ন্যাভিগেশন অ্যাপ"
+msgstr[1] "মানচিত্র এবং ন্যাভিগেশন অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:77
+msgid "Featured Music App"
+msgid_plural "Featured Music Apps"
+msgstr[0] "বিশেষ সঙ্গীত অ্যাপ"
+msgstr[1] "বিশেষ সঙ্গীত অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:78
+msgid "Mystery App!"
+msgid_plural "Mystery Apps!"
+msgstr[0] "রহস্য অ্যাপ!"
+msgstr[1] "রহস্য অ্যাপসমূহ!"
+
+#: /media/js/edbrands.js:79
+msgid "News & Weather App"
+msgid_plural "News & Weather Apps"
+msgstr[0] "খবর এবং আবহাওয়া অ্যাপ"
+msgstr[1] "খবর এবং আবহাওয়া অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:80
+msgid "Photo & Video App"
+msgid_plural "Photo & Video Apps"
+msgstr[0] "ফোটো এবং ভিডিও অ্যাপ"
+msgstr[1] "ফোটো এবং ভিডিও অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:81
+msgid "Featured Shopping App"
+msgid_plural "Featured Shopping Apps"
+msgstr[0] "বিশেষ শপিং অ্যাপ"
+msgstr[1] "বিশেষ শপিং অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:82
+msgid "Featured Social App"
+msgid_plural "Featured Social Apps"
+msgstr[0] "বিশেষ সোশ্যাল অ্যাপ"
+msgstr[1] "বিশেষ সোশ্যাল অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:83
+msgid "Featured Sports App"
+msgid_plural "Featured Sports Apps"
+msgstr[0] "বিশেষ খেলাধূলো অ্যাপ"
+msgstr[1] "বিশেষ খেলাধূলো অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:84
+msgid "Tool & Time Saver"
+msgid_plural "Tools & Time Savers"
+msgstr[0] "টুল ও সময় সংরক্ষক"
+msgstr[1] "টুল ও সময় সংরক্ষকসমূহ"
+
+#: /media/js/edbrands.js:85
+msgid "Featured Travel App"
+msgid_plural "Featured Travel Apps"
+msgstr[0] "বিশেষ ভ্রমণ অ্যাপ"
+msgstr[1] "বিশেষ ভ্রমণ অ্যাপসমূহ"
+
+#: /media/js/edbrands.js:86
+msgid "Work & Business App"
+msgid_plural "Work & Business Apps"
+msgstr[0] "কাজের ও ব্যবসার অ্যাপ"
+msgstr[1] "কাজের ও ব্যবসার অ্যাপসমূহ"
+
+#: /media/js/feed.js:10
+msgid "Grid Layout"
+msgstr "গ্রিড বিন্যাস"
+
+#: /media/js/feed.js:11
+msgid "List Layout"
+msgstr "তালিকা বিন্যাস"
+
+#: /media/js/feed.js:33
+msgid "Icon"
+msgstr "আইকন"
+
+#: /media/js/feed.js:34
+msgid "Background Image"
+msgstr "পশ্চাদপট চিত্র"
+
+#: /media/js/feed.js:36
+msgid "Quote"
+msgstr "উক্তি"
+
+#: /media/js/feed.js:37
+msgid "Screenshot"
+msgstr "স্ক্রিনশট"
+
+#: /media/js/feed.js:45
+msgid "Promo Collection"
+msgstr "প্রচারের সংগ্রহ"
+
+#: /media/js/feed.js:46
+msgid "Listing Collection"
+msgstr "তালিকার সংগ্রহ"
+
+#: /media/js/helpers_local.js:85
+msgid "Works offline"
+msgstr "অফলাইন কাজ করে"
+
+#: /media/js/installer_direct.js:140
+msgid "Unable to install packaged apps"
+msgstr "প্যাকেজ অ্যাপ ইন্সটল করা যাচ্ছে না"
+
+#: /media/js/installer_direct.js:180 /media/js/installer_iframe.js:111
+msgid "App install error: {error}"
+msgstr "অ্যাপ ইন্সটল ত্রুটি: {error}"
+
+#: /media/js/main.js:182
+msgid "The next time you start the Firefox Marketplace app, you’ll see the updated version!"
+msgstr ""
+
+#: /media/js/newsletter.js:64
+msgid "There was an error submitting your newsletter sign up request"
+msgstr ""
+
+#. This error is raised when we are unable to fetch a JWT from the payments API.
+#: /media/js/payments.js:135
+msgid "Error while communicating with server. Try again later."
+msgstr "সার্ভারের সাথে যোগাযোগ করার সময় ত্রুটি হয়েছে। পরে আবার চেষ্টা করুন।"
+
+#: /media/js/payments.js:138
+msgid "Payment failed. Try again later."
+msgstr "পেমেন্ট ব্যর্থ। পরে পুনরায় চেষ্টা করুন।"
+
+#. {n} is the number of stars
+#: /media/js/ratingwidget.js:44
+msgid "{n} star"
+msgid_plural "{n} stars"
+msgstr[0] "{n} স্টার"
+msgstr[1] "{n} স্টারসমূহ"
+
+#. The report is an abuse report for reviews.
+#: /media/js/reviews.js:34
+msgid "Flagging review..."
+msgstr ""
+
+#: /media/js/reviews.js:38
+msgid "This review has been successfully flagged. Thanks!"
+msgstr ""
+
+#: /media/js/reviews.js:41
+msgid "Sorry, there was an issue flagging the review. Please try again later."
+msgstr ""
+
+#: /media/js/reviews.js:49
+msgid "This review has been successfully deleted"
+msgstr ""
+
+#: /media/js/reviews.js:80
+msgid "Write a Review"
+msgstr ""
+
+#: /media/js/reviews.js:82
+msgid "Sorry, there was a problem deleting the review"
+msgstr ""
+
+#: /media/js/reviews.js:145 /media/js/views/app.js:25 /media/js/views/app.js:32 /media/js/views/app.js:33 /media/js/views/app.js:38 /media/js/views/app.js:39 /media/js/views/feed/feed_app.js:9
+#: /media/js/views/feed/feed_brand.js:9 /media/js/views/feed/feed_collection.js:8 /media/js/views/feed/feed_shelf.js:9
+msgid "Loading..."
+msgstr "লোড হচ্ছে..."
+
+#: /media/js/reviews.js:249
+msgid "Your review was successfully posted. Thanks!"
+msgstr ""
+
+#: /media/js/reviews.js:255
+msgid "Sorry, there was an error posting your review. Please try again later."
+msgstr ""
+
+#: /media/js/settings.js:99
+msgid "English"
+msgstr ""
+
+#: /media/js/settings.js:100
+msgid "French"
+msgstr ""
+
+#: /media/js/settings.js:101
+msgid "German"
+msgstr ""
+
+#: /media/js/settings.js:102
+msgid "Hungarian"
+msgstr ""
+
+#: /media/js/settings.js:103
+msgid "Indonesian"
+msgstr ""
+
+#: /media/js/settings.js:104
+msgid "Polish"
+msgstr ""
+
+#: /media/js/settings.js:105
+msgid "Portuguese"
+msgstr ""
+
+#: /media/js/settings.js:106
+msgid "Russian"
+msgstr ""
+
+#: /media/js/settings.js:107
+msgid "Spanish"
+msgstr ""
+
+#: /media/js/settings.js:133
+msgid "Sorry, you are currently offline. Please try again later."
+msgstr "দুঃখিত, আপনি বর্তমানে অফলাইন। অনুগ্রহ করে পরে আবার চেষ্টা করুন।"
+
+#: /media/js/views/app.js:26 /media/js/views/feed/feed_app.js:10
+msgid "App Details"
+msgstr "অ্যাপের বর্ণনা"
+
+#: /media/js/views/feedback.js:23
+msgid "Feedback submitted. Thanks!"
+msgstr "ফিডব্যাক জমা হয়ে গেছে। ধন্যবাদ!"
+
+#: /media/js/views/feedback.js:27
+msgid "There was a problem submitting your feedback. Try again soon."
+msgstr "আপনার ফিডব্যাক জমা দেওয়ার সময় একটি সমস্যা হয়েছে। শীঘ্রই আবার চেষ্টা করুন।"
+
+#: /media/js/views/homepage.js:61
+msgid "Games & Entertainment Apps—Desktop Essentials"
+msgstr "গেমস এবং বিনোদনমূলক অ্যপ্লিকেশানসমূহ — ডেস্কটপ অপরিহার্য"
+
+#: /media/js/views/homepage.js:66
+msgid "Discover, share, and enjoy music with SoundCloud."
+msgstr "SoundCloud এর দ্বারা সংগীত আবিস্কার, ভাগ এবং উপভোগ করুন৷"
+
+#: /media/js/views/homepage.js:71
+msgid "Play Hex Race—a thrill ride from the future!"
+msgstr "হেক্স রেস খেলুন—ভবিষ্যতে থেকে একটি রোমহর্ষক রাইড!"
+
+#: /media/js/views/homepage.js:76
+msgid "Productivity Apps—Desktop Essentials"
+msgstr "উৎপাদনশীলতা অ্যপ্লিকেশানসমূহ — ডেস্কটপ অপরিহার্য"
+
+#: /media/js/views/homepage.js:81
+msgid "Store and share any type of file with Box."
+msgstr "বক্সের দ্বারা যেকোনো প্রকারের ফিল্ম সংরক্ষণ এবং ভাগ করুন৷"
+
+#: /media/js/views/search.js:164
+msgid "Search Results"
+msgstr "অনুসন্ধানের ফলাফল"
+
+#: /media/js/views/settings.js:40
+msgid "Your settings have been successfully saved"
+msgstr ""
+
+#: /media/js/views/settings.js:46
+msgid "Settings could not be saved"
+msgstr "সেটিংস সংরক্ষিত করা যাচ্ছে না"
+
+#: /media/js/views/app/abuse.js:18
+msgid "Abuse report submitted. Thanks!"
+msgstr ""
+
+#: /media/js/views/app/abuse.js:24
+msgid "There was an issue submitting your abuse report. Please try again later."
+msgstr ""
+
+#: /media/js/views/app/receipt.js:13
+msgid "Please sign in to view the receipt"
+msgstr "রশিদ দেখতে সাইন ইন করুন"
+
+#: /media/js/views/app/receipt.js:21
+msgid "Receipt"
+msgstr "রশিদ"
+
+#: /media/js/views/commonplace/hello_world.js:9
+msgid "Hello World!"
+msgstr "হ্যালো ওয়ার্ল্ড!"
+
+#. Page not found (404)
+#: /media/js/views/commonplace/not_found.js:9
+msgid "Not Found"
+msgstr "পাওয়া যায় নি"
+
+#: /media/js/views/feed/feed_brand.js:10
+msgid "Editorial Brand Details"
+msgstr "সম্পাদকীয় ব্র্যান্ডের বিবরণ"
+
+#: /media/js/views/feed/feed_collection.js:9
+msgid "Collection Details"
+msgstr "সংগ্রহ বিবরণ"
+
+#: /media/js/views/feed/feed_shelf.js:10
+msgid "Operator Shelf Details"
+msgstr "অপারেটরের নিজ বিবরণ"
+
+#: /media/js/views/app/ratings/edit.js:19
+msgid "Your review was successfully edited"
+msgstr ""
+
+#: /media/js/views/app/ratings/edit.js:36
+msgid "Sorry, there was an issue editing your review. Please try again later"
+msgstr ""

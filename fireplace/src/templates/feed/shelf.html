@@ -1,0 +1,13 @@
+{% from "_macros/feed_item.html" import collection_landing %}
+
+{% defer (url=anonApi('feed-shelf', [slug]), pluck='apps', as='app',
+          id='shelf') %}
+  {{ collection_landing(response) }}
+{% placeholder %}
+  <p class="spinner alt spaced"></p>
+{% except %}
+  <div class="detailed-error">
+    <h2>{{ _('Oh no!') }}</h2>
+    <p>{{ _('We could not load that operator shelf. Please try again later.') }}</p>
+  </div>
+{% end %}

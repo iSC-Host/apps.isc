@@ -1,0 +1,9 @@
+<section class="category-index main">
+  {% for cat in categories %}
+    <a href="{{ url('category', [cat.slug]) }}">
+      <div class="cat-{{ cat.slug }} cat-icon cat-idx" data-cat-slug="{{ cat.slug }}">
+        <p>{{ cat.name }}</p>
+      </div>
+    </a>
+  {% endfor %}
+</section>

@@ -1,0 +1,79 @@
+/* 'more' button container, button, placement, and spinners. */
+@import 'lib';
+
+$loadmore-desktop-width = 300px;
+
+.loadmore {
+    list-style: none;
+    margin: -1px auto 0 auto;
+    padding: 18px 10px;
+    position: relative;
+    width: 100%;
+
+    .button {
+        display: block;
+        margin: auto;
+        padding: 0;
+        position: relative;
+        width: $loadmore-desktop-width;
+
+        &:before {
+            background: url('../img/icons/refresh-icon.svg');
+            bottom: 1px;
+            content: "";
+            display: inline-block;
+            margin-right: 10px;
+            width: 16px;
+            height: 16px;
+            position: relative;
+            vertical-align: middle;
+        }
+    }
+    &.loading .button:before {
+        animation(unquote('0.9s spin infinite steps(30)'));
+    }
+    .spinner {
+        display: block;
+    }
+    &.pagination-error .error-text {
+        display: block;
+        text-align: center;
+    }
+}
+
+.listing .loadmore,
+.reviews-listing .loadmore {
+    height: auto;
+    min-height: 68px;
+}
+
+[data-page-type~=homepage],
+[data-page-type~=app-list] {
+    .loadmore {
+        // Put loadmore button on its own row.
+        margin-bottom: 0;
+        max-width: 100%;
+        padding-top: 15px;
+        width: 100%;
+    }
+}
+
+[data-page-type~=app-list] {
+    .loadmore {
+        padding-bottom: 0;
+        padding-top: 25px;
+    }
+}
+
+@media $base-desktop {
+    .loadmore {
+        padding: 25px 10px 0;
+    }
+    .grid-if-desktop .loadmore {
+        padding-top: 18px;
+    }
+    [data-page-type~=homepage],
+    [data-page-type~=app-list] {
+        padding-bottom: 0;
+    }
+}

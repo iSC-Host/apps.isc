@@ -1,0 +1,98 @@
+@import 'lib';
+
+.potato-captcha {
+    display: none;
+}
+
+button, input, select, textarea {
+    font: 100% $open-stack;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+button, input {
+    line-height: normal;
+}
+
+label, button, input[type=button], input[type=submit] {
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    font-weight: 400;
+}
+
+input::-webkit-input-placeholder {
+    color: $gray;
+}
+
+input:-moz-placeholder {
+    color: $gray;
+    text-overflow: ellipsis;  // Firefox 18 and below
+}
+
+input::-moz-placeholder {
+    text-overflow: ellipsis;  // Firefox 19+
+}
+
+input[placeholder] {
+    text-overflow: ellipsis;
+    // Because bug 673873 is stupidface.
+    // Yes, the order matters. Firefox 18 (and below) is clownshoes.
+    &:-moz-placeholder:focus {
+        color: transparent !important;
+    }
+    &:focus::-moz-placeholder {
+        color: transparent !important;
+    }
+    &:focus::-webkit-input-placeholder {
+        color: transparent !important;
+    }
+}
+
+input[type=email], input[type=text], input[type=url], select, textarea {
+    border-radius: 3px;
+    border: 1px solid $light-gray;
+    box-shadow: 0 1px 0 $white, 0 1px 1px $seavan-salt-white inset;
+    color: $london-fog-gray;
+    font: 400 15px/28px $open-stack;
+    padding: 5px;
+    text-decoration: none;
+
+    &[disabled], &[readonly] {
+        background: $seavan-salt-white;
+        color: $earl-gray;
+        cursor: not-allowed;
+    }
+    &:focus {
+        border-color: $sailor-blue;
+        box-shadow: 0 0 8px $sailor-blue;
+    }
+}
+
+select {
+    padding: 0;
+}
+
+textarea {
+    display: block;
+    overflow: auto;
+    vertical-align: top;
+}
+
+// Because specificity
+.only-logged-in.button,
+.logged-in .only-logged-out.button {
+    display: none;
+}
+
+.only-logged-out.button,
+.logged-in .only-logged-in.button {
+    display: block;
+}
+
+.logged-in .only-logged-in.inline {
+    display: inline-block;
+}

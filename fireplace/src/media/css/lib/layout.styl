@@ -1,0 +1,22 @@
+// Widths.
+$max-site-width = 1070px;
+$desktop-content = $max-site-width;
+$desktop-ftr = 732px;
+$header-height = 48px;
+$mobile-content-width = 300px;
+
+// Media query widths (e.g., @media $at-least-desktop { }).
+$wide-mobile = unquote('(min-width: 400px)');
+$base-tablet = unquote('(min-width: 700px)');
+$wide-tablet = unquote('(min-width: 800px)');
+$base-desktop = unquote('(min-width: 1050px)');
+$wide-desktop = unquote('(min-width: 1200px)');
+// Deprecated.
+$narrower-than-desktop = unquote('(max-width: 709px)');
+
+$retina-tablet = $retina unquote('and (max-width: 700px)');
+$retina-desktop = $retina unquote('and (min-width: 1050px)');
+$retina-wide = $retina unquote('and (min-width: 1200px)');
+
+// Retina.
+$retina = unquote('screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2)');

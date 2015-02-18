@@ -1,0 +1,298 @@
+/*
+    Site-wide or structural styles ONLY. This is not your diaper.
+    section.full - section that visually expands full width, with top
+                   and bottom padding, and margins in between other
+                   full sections.
+*/
+@import 'lib';
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    //text-rendering: optimizeLegibility;
+    word-wrap: break-word;
+}
+
+body {
+    background: $tile-border;
+    color: $castle-skull-gray;
+    // min-height needed so ff b2g/android can scroll to 0 (bug 872622).
+    min-height: 300px;
+    overflow-x: hidden;
+    transform-origin: 50% 400px;
+    transition: transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+#page {
+    position: relative;
+}
+
+#site-header,
+#page {
+    min-width: 320px;
+}
+
+.main {
+    margin: 0 auto;
+
+    .fragment-error {
+        padding: 0;
+    }
+}
+
+section.main {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+section.full {
+    background: $white;
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+
+    > div {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 10px;
+    }
+    + section.full,
+    + .placeholder section.full {
+        margin-top: 10px;
+    }
+}
+.placeholder + .placeholder section.full,
+.placeholder + section.full {
+    margin-top: 10px;
+}
+
+section.full + section.full {
+    margin-top: 10px;
+}
+
+.js-hidden, .hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: $action-positive;
+
+    &:hover {
+        text-decoration: underline;
+    }
+    &:not([href]) {
+        cursor: pointer;
+    }
+}
+
+.emaillink-wrapper {
+    /* Necessary when emaillink is in a paragraph. */
+    display: inline-block;
+}
+
+span.emaillink {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+
+    .i {
+        display: none;
+    }
+}
+
+noscript {
+    background: $salt-flat-white;
+    display: table;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+
+    p {
+        background: url(../img/pretty/marketplace_logo.png) 50% 48% no-repeat;
+        background-size: auto 60px;
+        display: table-cell;
+        font-weight: bold;
+        height: 100%;
+        padding-top: 60px;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+.row {
+    clear: both;
+}
+
+.detailed-error, .fragment-error {
+    background: #fff;
+}
+
+.detailed-error {
+    padding: 15px;
+}
+
+.fragment-error {
+    display: block;
+    padding: 15px;
+
+    b {
+        display: block;
+    }
+}
+
+#page > .overlay {
+    max-width: 100%;
+}
+
+.two-up {
+    width: 50%;
+    float: left;
+
+    &:nth-child(2n+1) {
+        padding: 0 5px 0 0;
+    }
+    &:nth-child(2n) {
+        padding: 0 0 0 5px;
+    }
+    .button {
+        display: block;
+    }
+}
+
+.only-logged-in,
+.logged-in .only-logged-out {
+    display: none;
+}
+
+.only-logged-out,
+.logged-in .only-logged-in {
+    display: block;
+}
+
+.spinner {
+    spinner();
+    &.alt {
+        spinner-alt-image();
+    }
+    &.btn-replace {
+        spinner-abs();
+        top: 24px;
+    }
+    &.spaced {
+        margin: 70px auto;
+    }
+    &.padded {
+        padding: 70px 0;
+    }
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0turn); }
+    to { -webkit-transform: rotate(1turn); }
+}
+@keyframes spin {
+    from { transform: rotate(0turn); }
+    to { transform: rotate(1turn); }
+}
+
+.roll {
+    animation(unquote('0.9s spin 1 steps(30)'));
+}
+
+.region {
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    color: $medium-gray;
+    display: inline-block;
+    margin-top: 6px;
+    min-height: 20px;
+    overflow: visible;
+    padding: 2px 0 2px 28px;
+    text-overflow: normal;
+}
+
+for region in $regions
+    .region-{region} {
+        background-image: url(unquote('../img/icons/regions/' + region + '.png'));
+    }
+
+@media $retina {
+    .spinner {
+        spinner-base-image('retina');
+        &.alt {
+            spinner-alt-image('retina');
+        }
+    }
+}
+
+/* For Firefox for Android. */
+button:not([disabled]):active,
+input:not([disabled]):active,
+select:not([disabled]):active,
+textarea:not([disabled]):active,
+option:active,
+label:active,
+a:active {
+    background: transparent;
+}
+
+// Hide the regular UI for standalone pages.
+[data-page-type=standalone-loading] {
+    > * {
+        display: none !important;
+    }
+    #splash-overlay {
+        display: block !important;
+        opacity: 1 !important;
+    }
+    #splash-overlay .throbber {
+        display: inline-block !important;
+    }
+}
+
+.hide-on-mobile {
+    display: none;
+}
+
+@media $base-tablet {
+    .hide-on-mobile {
+        display: block;
+    }
+}
+
+@media $base-desktop {
+    .hide-on-desktop {
+        display: none !important;
+    }
+    html {
+        background: $white;
+    }
+    #page {
+        padding-top: 18px;
+    }
+    .main {
+        max-width: $desktop-content;
+    }
+    section.full > div {
+        padding: 30px 0;
+        width: $max-site-width;
+    }
+    .container {
+        &.product-details {
+            margin: 50px 0;
+        }
+        &.prose,
+        &.form-grid {
+            padding: 25px;
+        }
+    }
+}

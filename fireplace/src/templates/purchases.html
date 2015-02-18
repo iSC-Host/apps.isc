@@ -1,0 +1,52 @@
+{% include "_macros/app_tile.html" %}
+{% include "_macros/more_button.html" %}
+
+<section class="main">
+  <div class="subheader">
+    <h1>
+      {{ _('My Apps') }}
+      <a class="app-list-filters-expand-toggle" title="{{ _('Expand') }}"></a>
+    </h1>
+  </div>
+</section>
+
+<section class="main full account purchases c" id="account-settings">
+  {% if user.logged_in() %}
+    {% defer (url=api('installed'), pluck='objects', as='app', paginate='.app-list') %}
+      {% include "_includes/app_list_filters.html" %}
+      <ul class="app-list only-logged-in {{ 'paginated' if response.meta.next }}">
+        {% for app in this %}
+          <li class="item result app-list-app">
+            {{ app_tile(app, tray=true, src='myapps') }}
+          </li>
+        {% endfor %}
+
+        {% if response.meta.next %}
+          {{ more_button(response.meta.next) }}
+        {% endif %}
+      </ul>
+    {% placeholder %}
+      <p class="spinner alt spaced"></p>
+    {% empty %}
+      <header class="secondary-header hide-on-mobile c">
+        <h2>{{ _('My Apps') }}</h2>
+      </header>
+      <p class="no-results only-logged-in">
+        {{ _('You have no apps') }}
+      </p>
+    {% except %}
+      <div class="detailed-error">
+        <h2>{{ _('Oh no!') }}</h2>
+        <p>{{ _('An internal server error occurred. Please try again later.') }}</p>
+      </div>
+    {% end %}
+  {% else %}
+    <section class="main full account-settings-save">
+      <div>
+        <p>{{ _('You must be signed in to view your apps.') }}</p>
+        <a class="button persona register" href="#">{{ _('Register') }}</a>
+        <a class="button persona" href="#">{{ _('Sign In') }}</a>
+      </div>
+    </section>
+  {% endif %}
+</section>

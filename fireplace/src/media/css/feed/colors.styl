@@ -1,0 +1,70 @@
+/*
+    Colors for the feed.
+*/
+@import 'index';
+@import '../lib';
+
+feed_background_color($color) {
+    background: $color;
+
+    &:active {
+        background: $color;
+    }
+}
+
+[data-feed-landing-color],
+[data-shelf-landing-carrier] {
+    h1,
+    .feed-landing-description {
+        color: $white;
+    }
+}
+[data-feed-landing-color="amber"] {
+    collection_background_colors($color-collection--amber);
+}
+[data-feed-landing-color="garnet"] {
+    collection_background_colors($color-collection--garnet);
+}
+[data-feed-landing-color="topaz"] {
+    collection_background_colors($color-collection--topaz);
+}
+[data-feed-landing-color="amethyst"] {
+    collection_background_colors($color-collection--amethyst);
+}
+[data-feed-landing-color="sapphire"] {
+    collection_background_colors($color-collection--sapphire);
+}
+[data-feed-landing-color="emerald"] {
+    collection_background_colors($color-collection--emerald);
+}
+[data-feed-landing-color="ruby"] {
+    collection_background_colors($color-collection--ruby);
+}
+[data-feed-landing-color="aquamarine"] {
+    collection_background_colors($color-collection--aquamarine);
+}
+
+[data-feed-color="amber"] {
+    feed_background_color($color-collection--amber);
+}
+[data-feed-color="garnet"] {
+    feed_background_color($color-collection--garnet);
+}
+[data-feed-color="topaz"] {
+    feed_background_color($color-collection--topaz);
+}
+[data-feed-color="amethyst"] {
+    feed_background_color($color-collection--amethyst);
+}
+[data-feed-color="sapphire"] {
+    feed_background_color($color-collection--sapphire);
+}
+[data-feed-color="emerald"] {
+    feed_background_color($color-collection--emerald);
+}
+[data-feed-color="ruby"] {
+    feed_background_color($color-collection--ruby);
+}
+[data-feed-color="aquamarine"] {
+    feed_background_color($color-collection--aquamarine);
+}
